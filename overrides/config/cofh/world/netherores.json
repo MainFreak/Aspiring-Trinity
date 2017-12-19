@@ -1,0 +1,25 @@
+{
+	"populate": {
+		"Quartz":{
+			"distribution": "cave",
+			"generator": {
+				"block": [
+				{"name": "minecraft:quartz_ore", "weight": 60},
+				{"name": "crossroads:ore_ruby", "weight": 40}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 200
+			},
+			"cluster-count": 10,
+			"chunk-chance": 5,
+			"biome": "all",
+			"retrogen": "false",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+	}
+}

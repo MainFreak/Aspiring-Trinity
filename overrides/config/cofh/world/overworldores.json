@@ -1,0 +1,96 @@
+{
+	"populate": {
+		"Common Copper": {
+				"distribution": "fractal",
+				"generator": {
+					"block": [ 
+							{"name": "thermalfoundation:ore", "metadata":0, "weight":65},
+							{"name": "clockworkphase2:zinc_ore", "weight":20},
+							{"name": "biomesoplenty:gem_ore", "metadata":5, "weight":10}],
+					"material": [ 
+							{"name": "minecraft:stone"},
+							{"name": "minecraft:sand"},
+							{"name": "minecraft:gravel"},
+							{"name": "minecraft:dirt"}],
+					"cluster-size": 1000,
+				},
+				"sparse": false,
+				"cluster-count": 1,
+				"chunk-chance": 20,
+				"min-height": 80,
+				"max-height": 150,
+				"vein-height": 20,
+				"vein-diameter": 120,
+				"vertical-density": 60,
+				"horizontal-density": 80,
+				"retrogen": false,
+				"biome": "all",
+				"dimension": {
+					"restriction": "whitelist",
+					"value":[
+						6
+					]
+				}
+			},
+			
+		"Common Tin": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block":	[
+					{"name": "forestry:resources", "weight":20},
+					{"name": "thermalfoundation:ore", "metadata": 1, "weight":80}],
+				"material": [ 
+							{"name": "minecraft:stone"},
+							{"name": "minecraft:sand"},
+							{"name": "minecraft:gravel"},
+							{"name": "minecraft:dirt"}],
+				"cluster-size": 10,
+				"crust": "rustic:slate"
+			},
+			"cluster-count": 6,
+			"chunk-chance": 6,
+			"min-height": 100,
+			"max-height": 150,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					6
+				]
+			}
+		},
+
+		"Common Iron": {
+			"distribution": "fractal",
+			"generator": {
+				"block": [ 
+				{"name": "iron_ore", "weight":90},
+				{"name": "biomesoplenty:gem_ore", "metadata":2, "weight":10}],
+				"material": [ 
+							{"name": "minecraft:stone"},
+							{"name": "minecraft:sand"},
+							{"name": "minecraft:gravel"},
+							{"name": "minecraft:dirt"}],
+				"cluster-size": 2500,
+			},
+			"cluster-count": 2,
+			"chunk-chance": 25,
+			"min-height": 20,
+			"max-height": 70,
+			"vein-height": 20,
+			"vein-diameter": 200,
+			"vertical-density": 40,
+			"horizontal-density": 70,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					6
+				]
+			}
+		}
+	}
+}

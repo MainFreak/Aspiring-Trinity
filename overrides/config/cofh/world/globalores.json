@@ -1,0 +1,107 @@
+{
+	"populate": {
+		"Universal Coal": {
+			"distribution": "fractal",
+			"generator": {
+				"block": "coal_ore",
+				"material": [ 
+							{"name": "minecraft:stone"},
+							{"name": "minecraft:sand"},
+							{"name": "minecraft:gravel"},
+							{"name": "minecraft:dirt"}
+				],
+				"cluster-size": 250,
+			},
+			"sparse": false,
+			"cluster-count": 1,
+			"chunk-chance": 7,
+			"min-height": 60,
+			"max-height": 180,
+			"vein-height": 30,
+			"vein-diameter": 15,
+			"vertical-density": 80,
+			"horizontal-density": 5,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					6,
+					-11325
+				]
+			}
+		},
+		
+		"Universal Gold": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block":	[ 
+							{"name": "minecraft:gold_ore", "weight":90},
+							{"name": "appliedenergistics2:quartz_ore", "weight":8},
+							{"name": "appliedenergistics2:charged_quartz_ore", "weight":2}
+							],
+				"material": [ 
+							{"name": "minecraft:stone"},
+							{"name": "minecraft:sand"},
+							{"name": "minecraft:gravel"},
+							{"name": "minecraft:dirt"}
+				],
+				"cluster-size": 50,
+				"crust": [ 
+							{"name": "minecraft:gold_ore", "weight":90},
+							{"name": "appliedenergistics2:quartz_ore", "weight":8},
+							{"name": "appliedenergistics2:charged_quartz_ore", "weight":2}
+				],
+				"hollow": true,
+				"filler": "thermalfoundation:fluid_aerotheum"
+			},
+			"cluster-count": 1,
+			"chunk-chance": 20,
+			"min-height": 20,
+			"max-height": 40,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					6,
+					-11325
+				]
+			}
+		},
+		
+		"Universal Redstone Geode": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": [
+					{"name": "redstone_ore", "weight":60},
+					{"name": "actuallyadditions:block_misc", "metadata": 3, "weight":25},
+					{"name": "lapis_ore", "weight":15}
+				],
+				"material": [ 
+							{"name": "minecraft:stone"},
+							{"name": "minecraft:sand"},
+							{"name": "minecraft:gravel"},
+							{"name": "minecraft:dirt"}
+				],
+				"cluster-size": 5,
+				"crust": "quark:limestone"
+			},
+			"cluster-count": 3,
+			"chunk-chance": 10,
+			"min-height": 5,
+			"max-height": 20,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					6,
+					-11325
+				]
+			}
+		}
+	}
+}

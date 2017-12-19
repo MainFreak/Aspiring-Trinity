@@ -1,0 +1,98 @@
+{
+	"populate": {
+		"DDDiamond": {
+			"distribution": "cave",
+			"generator": {
+				"block": "diamond_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 3,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-11325
+				]
+			}
+		},
+
+		"DDEmerald": {
+			"distribution": "cave",
+			"generator": {
+				"block": {
+					"name": "emerald_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 3,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-11325
+				]
+			}
+		},
+		
+		"DDGalena": {
+			"distribution": "fractal",
+			"generator": {
+				"block": [
+					{"name": "magneticraft:ores", "metadata": 1, "weight": 50},
+					{"name": "thermalfoundation:ore", "metadata": 3, "weight": 25},
+					{"name": "thermalfoundation:ore", "metadata": 2, "weight": 25}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 450
+			},
+			"cluster-count": 1,
+			"chunk-chance": 50,
+			"min-height": 25,
+			"vein-height": 15,
+			"vein-diameter": 40,
+			"vertical-density": 80,
+			"horizontal-density": 70,
+			"max-height": 50,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-11325
+				]
+			}
+		},
+		
+		"DDIron": {
+			"distribution": "fractal",
+			"generator": {
+				"block": [ 
+				{"name": "iron_ore", "weight":85},
+				{"name": "fp:erze", "metadata":4, "weight":5},
+				{"name": "thermalfoundation:ore", "metadata":5, "weight":10}],
+				"material": "minecraft:stone",
+				"cluster-size": 350,
+			},
+			"cluster-count": 1,
+			"chunk-chance": 50,
+			"min-height": 30,
+			"vein-height": 30,
+			"vein-diameter": 40,
+			"vertical-density": 60,
+			"horizontal-density": 60,
+			"max-height": 70,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-11325
+				]
+			}
+		}
+	}
+}

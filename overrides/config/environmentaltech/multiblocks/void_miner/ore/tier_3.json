@@ -1,0 +1,142 @@
+{
+  "outputs": [
+    {
+      "target": "litherite",
+      "weight": 4,
+      "count": 1,
+      "id": "environmentaltech:litherite_crystal"
+    },
+    {
+      "target": "erodium",
+      "weight": 3,
+      "count": 1,
+      "id": "environmentaltech:erodium_crystal"
+    },
+    {
+      "target": "kyronite",
+      "weight": 2,
+      "count": 1,
+      "id": "environmentaltech:kyronite_crystal"
+    },
+    {
+      "target": "pladium",
+      "weight": 1,
+      "count": 1,
+      "id": "environmentaltech:pladium_crystal"
+    },
+    {
+      "target": "black",
+      "weight": 100,
+      "count": 1,
+      "id": "OD:oreCoal"
+    },
+    {
+      "target": "white",
+      "weight": 55,
+      "count": 1,
+      "id": "OD:oreIron"
+    },
+    {
+      "target": "white",
+      "weight": 20,
+      "count": 1,
+      "id": "OD:oreQuartz"
+    },
+    {
+      "target": "red",
+      "weight": 15,
+      "count": 1,
+      "id": "OD:oreRedstone"
+    },
+    {
+      "target": "blue",
+      "weight": 20,
+      "count": 1,
+      "id": "OD:oreLapis"
+    },
+    {
+      "target": "yellow",
+      "weight": 10,
+      "count": 1,
+      "id": "OD:oreGold"
+    },
+    {
+      "target": "yellow",
+      "weight": 3,
+      "count": 1,
+      "id": "OD:glowstone"
+    },
+    {
+      "target": "orange",
+      "weight": 45,
+      "count": 1,
+      "id": "OD:oreCopper"
+    },
+    {
+      "target": "gray",
+      "weight": 50,
+      "count": 1,
+      "id": "OD:oreTin"
+    },
+    {
+      "target": "silver",
+      "weight": 10,
+      "count": 1,
+      "id": "OD:oreSilver"
+    },
+    {
+      "target": "purple",
+      "weight": 10,
+      "count": 1,
+      "id": "OD:oreLead"
+    },
+    {
+      "target": "white",
+      "weight": 30,
+      "count": 1,
+      "id": "OD:oreAluminum"
+	},
+    {
+      "target": "light_blue",
+      "weight": 5,
+      "count": 1,
+      "id": "OD:oreCertusQuartz"
+    },
+    {
+      "target": "gray",
+      "weight": 5,
+      "count": 1,
+      "id": "OD:oreNickel"
+    },
+    {
+      "target": "blue",
+      "weight": 5,
+      "count": 1,
+      "id": "OD:oreCobalt"
+    },
+    {
+      "target": "orange",
+      "weight": 5,
+      "count": 1,
+      "id": "OD:oreArdite"
+    },
+    {
+      "target": "black",
+      "weight": 15,
+      "count": 1,
+      "id": "OD:oreQuartzBlack"
+    },
+    {
+      "target": "pink",
+      "weight": 40,
+      "count": 1,
+      "id": "OD:oreZinc"
+    },
+    {
+      "target": "white",
+      "weight": 50,
+      "count": 1,
+      "id": "OD:blockSalt"
+    }
+  ]
+}

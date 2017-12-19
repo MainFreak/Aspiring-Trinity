@@ -1,0 +1,14 @@
+{
+  "materialMappings": {
+    "hellfire_nugget": 9,
+    "neodymium_dust": 0,
+    "electrum_dense_plate": 7,
+    "electrum_bolt": 6,
+    "electrum_rod": 4,
+    "hellfire_plate": 8,
+    "neodymium_ingot": 3,
+    "neodymium_plate": 1,
+    "electrum_casing": 5,
+    "neodymium_nugget": 2
+  }
+}

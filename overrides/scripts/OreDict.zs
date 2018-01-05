@@ -91,14 +91,6 @@ print("Superconverting items to other items, and you don't even know it!");
 #Misc OreDict recipe fixes and nerfs
 recipes.addShapeless("MiscRecipe02", <minecraft:chest>, [<ore:chestWood>]);
 
-recipes.remove(<minecraft:piston>);
-recipes.addShaped("MiscRecipe03", <minecraft:piston>*4, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:compressed1xCobblestone>, <ore:ingotIron>, <ore:compressed1xCobblestone>], [<ore:cobblestone>, <ore:dustElectrumFlux>, <ore:cobblestone>]]);
-
-recipes.remove(<minecraft:furnace>);
-recipes.addShaped("MiscRecipe04", <minecraft:furnace>, [[<betterwithaddons:material:4>, <betterwithaddons:material:4>, <betterwithaddons:material:4>], [<betterwithaddons:material:4>, null, <betterwithaddons:material:4>], [<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]]);
-
-
-
 #Added Smelting Recipes
 furnace.addRecipe(<forge:bucketfilled>.withTag({FluidName: "ic2hot_water", Amount: 1000}), <minecraft:water_bucket>);
 

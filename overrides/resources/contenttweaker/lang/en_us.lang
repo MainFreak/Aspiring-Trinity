@@ -2,4 +2,5 @@ item.contenttweaker.red_fiber.name=Redstone Fiber
 item.contenttweaker.flux_dust.name=Fluxed Gem Dust
 item.contenttweaker.clock_core.name=Clockwork Frame
 item.contenttweaker.hot_plate.name=Infernal Pellet
+item.contenttweaker.chroma_core.name=Chromatic Cartridge
 fluid.infernal_fuel=HD-Fuel

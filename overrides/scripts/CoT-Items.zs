@@ -9,3 +9,7 @@ clock_core.register();
 var hellfire_plate = VanillaFactory.createItem("hot_plate");
 hellfire_plate.maxStackSize = 1;
 hellfire_plate.register();
+
+var chroma_core = VanillaFactory.createItem("chroma_core");
+chroma_core.maxStackSize = 3;
+chroma_core.register();

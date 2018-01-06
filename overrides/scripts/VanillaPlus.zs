@@ -16,6 +16,8 @@ recipes.addShaped("VanRecipe02", <minecraft:furnace>, [[<minecraft:stonebrick:2>
 #Normal Chest
 recipes.remove(<minecraft:chest>);
 recipes.addShaped("VanRecipe03", <minecraft:chest>, [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], [<ore:slabWood>, <immcraft:chest>, <ore:slabWood>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+recipes.addShaped("VanRecipe04", <minecraft:chest>*4, [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], [<ore:slabWood>, <actuallyadditions:block_misc:4>, <ore:slabWood>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+recipes.addShapeless("VanRecipe05", <minecraft:chest>, [<extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>]);
 
 
 

@@ -9,11 +9,9 @@ recipes.addShaped("BWMRecipe01", <betterwithmods:single_machine:0>, [[<ore:brick
 
 
 #Random Stuff
-recipes.addShapeless("BWMRecipe02", <betterwithaddons:material:4>, [<magneticraft:stone_hammer:*>.transformDamage(1), <minecraft:cobblestone>]);
+recipes.addShaped("BWMRecipe02", <betterwithaddons:material:4>, [[<immcraft:rock>, <immcraft:rock>], [<immcraft:rock>, <immcraft:rock>]]);
 
 recipes.addShapeless("BWMRecipe03", <roots:straw>, [<minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>]);
-
-recipes.addShapeless("BWMRecipe04", <roots:firestarter:11>.withTag({display:{Name:"Rudimentary Fire Starter"}}), [<ore:stickWood>, <ore:stickWood>]);
 
 
 

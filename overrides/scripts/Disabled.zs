@@ -165,6 +165,15 @@ for sword in swords {
 
 
 
+#Scaffolds
+recipes.remove(<ic2:scaffold:0>);
+recipes.remove(<betterwithaddons:scaffold>);
+
+recipes.addShapeless(<betterwithaddons:scaffold>*6, [<betterwithmods:platform>, <betterwithmods:rope>]);
+recipes.addShaped(<ic2:scaffold:0>, [[null, <ore:stickWood>, null], [<ore:stickWood>, <betterwithaddons:scaffold>, <ore:stickWood>], [null, <ore:stickWood>, null]]);
+
+
+
 #Disabled Plates and stuff
 recipes.removeShapeless(<immersiveengineering:metal:30>);
 recipes.removeShapeless(<immersiveengineering:metal:31>);

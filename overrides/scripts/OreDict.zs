@@ -73,6 +73,16 @@ print("Superconverting items to other items, and you don't even know it!");
 <magneticraft:heavy_plates:5>.displayName = "Compressed Tungsten Plate";
 <magneticraft:heavy_plates:6>.displayName = "Compressed Steel Plate";
 
+
+
+#OD Fix for Sheets
+<ore:plateIron>.remove(<magneticraft:light_plates:0>);
+<ore:plateGold>.remove(<magneticraft:light_plates:1>);
+<ore:plateCopper>.remove(<magneticraft:light_plates:2>);
+<ore:plateLead>.remove(<magneticraft:light_plates:3>);
+<ore:plateTungsten>.remove(<magneticraft:light_plates:5>);
+<ore:plateSteel>.remove(<magneticraft:light_plates:6>);
+
 #Better name for the magnet
 <magneticraft:crafting:4>.displayName = "Simple Steel Magnet";
 

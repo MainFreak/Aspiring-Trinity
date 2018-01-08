@@ -9,7 +9,7 @@ recipes.addShaped("BWMRecipe01", <betterwithmods:single_machine:0>, [[<ore:brick
 
 
 #Random Stuff
-recipes.addShaped("BWMRecipe02", <betterwithaddons:material:4>, [[<immcraft:rock>, <immcraft:rock>], [<immcraft:rock>, <immcraft:rock>]]);
+mods.artisanworktables.Worktable.addRecipeShapeless("mason", <betterwithaddons:material:4>, <ore:masons_chisel>, 2, [<immcraft:rock>]);
 
 recipes.addShapeless("BWMRecipe03", <roots:straw>, [<minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>]);
 

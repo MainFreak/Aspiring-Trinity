@@ -16,7 +16,7 @@ recipes.addShaped("TERecipe01", <thermalexpansion:dynamo:0>, [[null, <thermalfou
 
 
 #Coils
-recipes.remove(<thermalfoundation:material:531>);
+recipes.remove(<thermalfoundation:material:513>);
 recipes.addShapedMirrored("TERecipe02", <thermalfoundation:material:513>, [[null, <contenttweaker:red_fiber>, <extrautils2:ingredients>], [<contenttweaker:red_fiber>, <ore:rodGold>, <contenttweaker:red_fiber>], [<extrautils2:ingredients>, <contenttweaker:red_fiber>, null]]);
 
 recipes.remove(<thermalfoundation:material:514>);

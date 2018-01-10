@@ -4,10 +4,15 @@
 print("Vanilla minus...");
 
 
+#More Tools
+<ore:basic_wrench>.add(<ic2:wrench>);
+
+
 
 #More Efficient Piston Recipe 
 recipes.remove(<minecraft:piston>);
-recipes.addShaped("VanRecipe01", <minecraft:piston>*4, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:compressed1xCobblestone>, <ore:ingotIron>, <ore:compressed1xCobblestone>], [<ore:cobblestone>, <ore:dustElectrumFlux>, <ore:cobblestone>]]);
+recipes.addShaped("VanRecipe01", <minecraft:piston>*4, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:compressed1xCobblestone>, <ore:ingotIron>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <ore:dustElectrumFlux>, <ore:compressed1xCobblestone>]]);
+mods.artisanworktables.Worktable.addRecipeShaped("basic", <minecraft:piston>, <ore:basic_wrench>, 20, true, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:compressed1xCobblestone>, <ore:gearSteel>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <contenttweaker:red_fiber>, <ore:compressed1xCobblestone>]]);
 
 #Normal Furnace
 recipes.remove(<minecraft:furnace>);
@@ -18,6 +23,7 @@ recipes.remove(<minecraft:chest>);
 recipes.addShaped("VanRecipe03", <minecraft:chest>, [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], [<ore:slabWood>, <immcraft:chest>, <ore:slabWood>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 recipes.addShaped("VanRecipe04", <minecraft:chest>*4, [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], [<ore:slabWood>, <actuallyadditions:block_misc:4>, <ore:slabWood>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 recipes.addShapeless("VanRecipe05", <minecraft:chest>, [<extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>, <extrautils2:minichest>]);
+mods.artisanworktables.Worktable.addRecipeShaped("carpenter", <minecraft:chest>*2, <ore:carpenters_handsaw>, 20, true, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
 
 

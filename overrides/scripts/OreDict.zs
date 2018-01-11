@@ -11,6 +11,12 @@ print("Superconverting items to other items, and you don't even know it!");
 
 
 
+#Not quite nuggets tbh
+<ore:nuggetAluminum>.remove(<oreberries:aluminum_nugget>);
+<ore:nuggetAluminium>.remove(<oreberries:aluminum_nugget>);
+
+
+
 #IE/BWM Exploit fix
 <ore:fiberHemp>.remove(<immersiveengineering:material:4>);
 <ore:cropHemp>.add(<immersiveengineering:material:4>);

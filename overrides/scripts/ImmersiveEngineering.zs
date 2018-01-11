@@ -86,6 +86,11 @@ recipes.addShapedMirrored("IERecipe14", <immersiveengineering:metal_decoration0:
 
 
 
+#Aluminium Recipe
+mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:132>, <oreberries:aluminum_nugget>*9, <ore:sand>, 40);
+
+
+
 #Diesel Generator Fuels
 mods.immersiveengineering.DieselHandler.addFuel(<liquid:infernal_fuel>, 10000);
 

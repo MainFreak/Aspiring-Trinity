@@ -13,3 +13,7 @@ hellfire_plate.register();
 var chroma_core = VanillaFactory.createItem("chroma_core");
 chroma_core.maxStackSize = 3;
 chroma_core.register();
+
+var cubic_carbon = VanillaFactory.createItem("cubic_carbon");
+cubic_carbon.maxStackSize = 64;
+cubic_carbon.register();

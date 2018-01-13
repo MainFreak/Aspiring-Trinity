@@ -12,7 +12,11 @@ print("Vanilla minus...");
 #More Efficient Piston Recipe 
 recipes.remove(<minecraft:piston>);
 recipes.addShaped("VanRecipe01", <minecraft:piston>*4, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:compressed1xCobblestone>, <ore:ingotIron>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <ore:dustElectrumFlux>, <ore:compressed1xCobblestone>]]);
+<<<<<<< HEAD
 mods.artisanworktables.Worktable.addRecipeShaped("basic", <minecraft:piston>*2, <ore:basic_wrench>, 20, true, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:compressed1xCobblestone>, <ore:gearSteel>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <contenttweaker:red_fiber>, <ore:compressed1xCobblestone>]]);
+=======
+mods.artisanworktables.Worktable.addRecipeShaped("basic", <minecraft:piston>, <ore:basic_wrench>, 20, true, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:compressed1xCobblestone>, <ore:gearSteel>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <contenttweaker:red_fiber>, <ore:compressed1xCobblestone>]]);
+>>>>>>> b6b4e4d... More Vanilla Recipes, Mod Updates and Fixes
 
 #Normal Furnace
 recipes.remove(<minecraft:furnace>);

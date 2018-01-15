@@ -15,8 +15,17 @@ recipes.addShaped("ArtisanRecipes03", <artisanworktables:worktable:2>, [[<minecr
 #Carpenter's Table
 recipes.addShaped("ArtisanRecipes04", <artisanworktables:worktable:3>, [[<ore:blockIron>, <minecraft:anvil>, <ore:blockIron>], [<ore:chestWood>, <ore:workbench>, <ore:blacksmiths_hammer>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
 
-#Carpenter's Table
+#Jeweler's Table
 recipes.addShaped("ArtisanRecipes05", <artisanworktables:worktable:4>, [[<avaritia:resource:0>, <betterwithaddons:scaffold>, <avaritia:resource:8>], [<ore:chestWood>, <ore:workbench>, <ore:carpenters_saw>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
+
+#Basic Table
+
+
+#Engineer's Table
+recipes.addShaped("ArtisanRecipes07", <artisanworktables:worktable:6>, [[<ore:gearBronze>, <ore:plateDenseBronze>, <ore:gearBronze>], [<ore:basic_wrench>, <ic2:te:88>, <ore:chestWood>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
+
+#Magician's Table
+recipes.addShaped("ArtisanRecipes08", <artisanworktables:worktable:7>, [[<ore:plateAmethyst>, <avaritia:resource:0>, <ore:plateAmethyst>], [<chiselsandbits:chisel_diamond>, <artisanworktables:worktable:4>, <ore:chestWood>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
 
 
 

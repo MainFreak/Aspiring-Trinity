@@ -12,8 +12,8 @@ print("Superconverting items to other items, and you don't even know it!");
 
 
 #Not quite nuggets tbh
-<ore:nuggetAluminum>.remove(<oreberries:aluminum_nugget>);
-<ore:nuggetAluminium>.remove(<oreberries:aluminum_nugget>);
+<ore:nuggetAluminum>.remove(<oreberries:aluminum_oreberry>);
+<ore:nuggetAluminium>.remove(<oreberries:aluminum_oreberry>);
 
 
 

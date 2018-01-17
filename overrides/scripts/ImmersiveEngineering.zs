@@ -32,18 +32,18 @@ recipes.addShaped("IERecipe04", <immersiveengineering:stone_decoration:2>*12, [[
 
 #Coke Oven. Yes. Coke Oven.
 recipes.remove(<immersiveengineering:stone_decoration>);
-recipes.addShaped(<immersiveengineering:stone_decoration>*3, [[<minecraft:clay>, <betterwithaddons:bricks_stained:15>, <minecraft:clay>], [<betterwithaddons:bricks_stained>, <ore:sandstone>, <betterwithaddons:bricks_stained:15>], [<minecraft:clay>, <betterwithaddons:bricks_stained>, <minecraft:clay>]]);
+recipes.addShaped("IERecipe05", <immersiveengineering:stone_decoration>*3, [[<minecraft:clay>, <betterwithaddons:bricks_stained:15>, <minecraft:clay>], [<betterwithaddons:bricks_stained>, <ore:sandstone>, <betterwithaddons:bricks_stained:15>], [<minecraft:clay>, <betterwithaddons:bricks_stained>, <minecraft:clay>]]);
 
 
 #Conveyor Belt
 recipes.remove(<immersiveengineering:conveyor>);
-recipes.addShaped("IERecipe05", <immersiveengineering:conveyor>*5, [[<magneticraft:conveyor_belt>, <magneticraft:conveyor_belt>, <magneticraft:conveyor_belt>], [<storagenetwork:upgrade>, <embers:item_transfer>, <storagenetwork:upgrade>]]);
+recipes.addShaped("IERecipe06", <immersiveengineering:conveyor>*5, [[<magneticraft:conveyor_belt>, <magneticraft:conveyor_belt>, <magneticraft:conveyor_belt>], [<storagenetwork:upgrade>, <embers:item_transfer>, <storagenetwork:upgrade>]]);
 
 
 
 #Making Wires a bit harder to get; Removing every wire outside of the Metal Press beyond LV
 recipes.remove(<immersiveengineering:material:20>);
-recipes.addShapeless("IERecipe06", <immersiveengineering:material:20>, [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <immersiveengineering:tool:1>]);
+recipes.addShapeless("IERecipe07", <immersiveengineering:material:20>, [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <immersiveengineering:tool:1>]);
 
 recipes.remove(<immersiveengineering:material:21>);
 
@@ -55,34 +55,34 @@ recipes.remove(<immersiveengineering:material:23>);
 
 #The Wire Coils were always kind of too easy weren't they
 recipes.remove(<immersiveengineering:wirecoil:0>);
-recipes.addShapedMirrored("IERecipe07", <immersiveengineering:wirecoil:0>*2, [[<ore:stickTreatedWood>, <immersiveengineering:material:20>, null], [<immersiveengineering:material:20>, <clockworkphase2:gear_wood>, <immersiveengineering:material:20>], [null, <immersiveengineering:material:20>, <ore:stickTreatedWood>]]);
+recipes.addShapedMirrored("IERecipe08", <immersiveengineering:wirecoil:0>*2, [[<ore:stickTreatedWood>, <immersiveengineering:material:20>, null], [<immersiveengineering:material:20>, <clockworkphase2:gear_wood>, <immersiveengineering:material:20>], [null, <immersiveengineering:material:20>, <ore:stickTreatedWood>]]);
 
 recipes.remove(<immersiveengineering:wirecoil:1>);
-recipes.addShapedMirrored("IERecipe08", <immersiveengineering:wirecoil:1>*2, [[<ore:stickTreatedWood>, <immersiveengineering:material:21>, null], [<immersiveengineering:material:21>, <clockworkphase2:gear_wood>, <immersiveengineering:material:21>], [null, <immersiveengineering:material:21>, <ore:stickTreatedWood>]]);
+recipes.addShapedMirrored("IERecipe09", <immersiveengineering:wirecoil:1>*2, [[<ore:stickTreatedWood>, <immersiveengineering:material:21>, null], [<immersiveengineering:material:21>, <clockworkphase2:gear_wood>, <immersiveengineering:material:21>], [null, <immersiveengineering:material:21>, <ore:stickTreatedWood>]]);
 
 recipes.remove(<immersiveengineering:wirecoil:2>);
-recipes.addShapedMirrored("IERecipe09", <immersiveengineering:wirecoil:2>*2, [[<ore:stickTreatedWood>, <immersiveengineering:material:22>, null], [<immersiveengineering:material:23>, <clockworkphase2:gear_wood>, <immersiveengineering:material:23>], [null, <immersiveengineering:material:22>, <ore:stickTreatedWood>]]);
+recipes.addShapedMirrored("IERecipe10", <immersiveengineering:wirecoil:2>*2, [[<ore:stickTreatedWood>, <immersiveengineering:material:22>, null], [<immersiveengineering:material:23>, <clockworkphase2:gear_wood>, <immersiveengineering:material:23>], [null, <immersiveengineering:material:22>, <ore:stickTreatedWood>]]);
 
 
 
 #Crafting Components
 recipes.remove(<immersiveengineering:material:8>);
-recipes.addShapedMirrored("IERecipe10", <immersiveengineering:material:8>*2, [[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<betterwithmods:material:49>, <betterwithmods:material:51>, <betterwithmods:material:49>], [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]]);
+recipes.addShapedMirrored("IERecipe11", <immersiveengineering:material:8>*2, [[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<betterwithmods:material:49>, <betterwithmods:material:51>, <betterwithmods:material:49>], [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]]);
 
 recipes.remove(<immersiveengineering:material:9>);
-recipes.addShapedMirrored("IERecipe11", <immersiveengineering:material:9>*2, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<betterwithmods:material:49>, <betterwithmods:material:51>, <betterwithmods:material:49>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShapedMirrored("IERecipe12", <immersiveengineering:material:9>*2, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<betterwithmods:material:49>, <betterwithmods:material:51>, <betterwithmods:material:49>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 
 
 #Multiblock Components
 recipes.remove(<immersiveengineering:metal_decoration0:3>);
-recipes.addShapedMirrored("IERecipe12", <immersiveengineering:metal_decoration0:3>*4, [[<ore:plateIron>, <ic2:upgrade:3>, <ore:plateIron>], [<immersiveengineering:wirecoil:5>, <immersiveengineering:material:8>, <immersiveengineering:wirecoil:5>], [<ore:plateIron>, <immersiveengineering:wirecoil:5>, <ore:plateIron>]]);
+recipes.addShapedMirrored("IERecipe13", <immersiveengineering:metal_decoration0:3>*4, [[<ore:plateIron>, <ic2:upgrade:3>, <ore:plateIron>], [<immersiveengineering:wirecoil:5>, <immersiveengineering:material:8>, <immersiveengineering:wirecoil:5>], [<ore:plateIron>, <immersiveengineering:wirecoil:5>, <ore:plateIron>]]);
 
 recipes.remove(<immersiveengineering:metal_decoration0:4>);
-recipes.addShapedMirrored("IERecipe13", <immersiveengineering:metal_decoration0:4>*2, [[<ore:plateAluminum>, <minecraft:piston>, <ore:plateAluminum>], [<immersiveengineering:material:8>, <ore:scaffoldingAluminum>, <immersiveengineering:material:8>], [<ore:plateAluminum>, <minecraft:piston>, <ore:plateAluminum>]]);
+recipes.addShapedMirrored("IERecipe14", <immersiveengineering:metal_decoration0:4>*2, [[<ore:plateAluminum>, <minecraft:piston>, <ore:plateAluminum>], [<immersiveengineering:material:8>, <ore:scaffoldingAluminum>, <immersiveengineering:material:8>], [<ore:plateAluminum>, <minecraft:piston>, <ore:plateAluminum>]]);
 
 recipes.remove(<immersiveengineering:metal_decoration0:5>);
-recipes.addShapedMirrored("IERecipe14", <immersiveengineering:metal_decoration0:5>*2, [[<ore:plateSteel>, <crossroads:multi_piston>, <ore:plateSteel>], [<immersiveengineering:material:9>, <ore:scaffoldingSteel>, <immersiveengineering:material:9>], [<ore:plateSteel>, <crossroads:multi_piston>, <ore:plateSteel>]]);
+recipes.addShapedMirrored("IERecipe15", <immersiveengineering:metal_decoration0:5>*2, [[<ore:plateSteel>, <crossroads:multi_piston>, <ore:plateSteel>], [<immersiveengineering:material:9>, <ore:scaffoldingSteel>, <immersiveengineering:material:9>], [<ore:plateSteel>, <crossroads:multi_piston>, <ore:plateSteel>]]);
 
 recipes.remove(<immersiveengineering:metal_decoration0:7>);
 recipes.addShapedMirrored("IERecipe15", <immersiveengineering:metal_decoration0:7>*2, [[<ore:plateLead>, <ic2:crafting:5>, <ore:plateLead>], [<ic2:crafting:5>, <ic2:heat_storage>, <ic2:crafting:5>], [<ore:plateLead>, <ic2:crafting:5>, <ore:plateLead>]]);
@@ -95,8 +95,8 @@ recipes.addShapedMirrored("IERecipe16", <immersiveengineering:tool:1>, [[<minecr
 
 
 #Aluminium Recipe
-mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:132>, <oreberries:aluminum_nugget>*9, <ore:sand>, 40);
-
+mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:132>, <oreberries:aluminum_oreberry>*9, <ore:sand>, 40);
+furnace.remove(<ore:nuggetAluminium>);
 
 
 #Diesel Generator Fuels

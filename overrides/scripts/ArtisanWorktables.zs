@@ -22,7 +22,7 @@ recipes.addShaped("ArtisanRecipes05", <artisanworktables:worktable:4>, [[<avarit
 
 
 #Engineer's Table
-recipes.addShaped("ArtisanRecipes07", <artisanworktables:worktable:6>, [[<ore:gearBronze>, <ore:plateDenseBronze>, <ore:gearBronze>], [<ore:basic_wrench>, <ic2:te:88>, <ore:chestWood>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
+recipes.addShaped("ArtisanRecipes07", <artisanworktables:worktable:6>, [[<ore:gearBronze>, <ore:plateDenseBronze>, <ore:gearBronze>], [<ore:engineers_wrench>, <ic2:te:88>, <ore:chestWood>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
 
 #Magician's Table
 recipes.addShaped("ArtisanRecipes08", <artisanworktables:worktable:7>, [[<ore:plateAmethyst>, <avaritia:resource:0>, <ore:plateAmethyst>], [<chiselsandbits:chisel_diamond>, <artisanworktables:worktable:4>, <ore:chestWood>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);

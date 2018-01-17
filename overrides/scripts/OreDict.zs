@@ -4,6 +4,11 @@ print("Superconverting items to other items, and you don't even know it!");
 
 
 
+#More Tools for Artisans
+<ore:engineers_wrench>.add(<ic2:wrench>);
+
+
+
 #Crossroads Fixes
 <ore:stickIron>.remove(<crossroads:axle>);
 

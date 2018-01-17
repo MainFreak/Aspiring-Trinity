@@ -36,33 +36,7 @@ print("Superconverting items to other items, and you don't even know it!");
 
 <immersiveengineering:material:9>.displayName = "Heavy Engineering Component";
 
-<extendedcrafting:storage>.displayName = "Block of Nocturnal Steel";
-
-<extendedcrafting:frame>.displayName = "Nocturnal Steel Framework";
-
-<extendedcrafting:lamp:0>.displayName = "Nocturnal Steel Lantern";
-
-<extendedcrafting:lamp:1>.displayName = "Nocturnal Steel Lantern";
-
-<extendedcrafting:trimmed:0>.displayName = "Nocturnal Steel-Based Matrix";
-
-<extendedcrafting:trimmed:1>.displayName = "Nocturnal Steel-Based Matrix";
-
-<extendedcrafting:trimmed:2>.displayName = "Nocturnal Steel-Based Matrix";
-
-<extendedcrafting:trimmed:3>.displayName = "Nocturnal Steel-Based Matrix";
-
-<extendedcrafting:trimmed:4>.displayName = "Nocturnal Steel-Based Matrix";
-
-<extendedcrafting:trimmed:5>.displayName = "Nocturnal Steel-Based Matrix";
-
-<extendedcrafting:material:0>.displayName = "Nocturnal Steel Ingot";
-
-<extendedcrafting:material:1>.displayName = "Nocturnal Steel Nugget";
-
-<extendedcrafting:material:2>.displayName = "Nocturnal Steel Panel";
-
-<extendedcrafting:material:3>.displayName = "Nocturnal Steel Rod";
+<magneticraft:copper_coil>.displayName = "Copper Wire Reel";
 
 
 
@@ -83,6 +57,13 @@ print("Superconverting items to other items, and you don't even know it!");
 <magneticraft:heavy_plates:3>.displayName = "Compressed Lead Plate";
 <magneticraft:heavy_plates:5>.displayName = "Compressed Tungsten Plate";
 <magneticraft:heavy_plates:6>.displayName = "Compressed Steel Plate";
+
+
+
+#Fixing Coils
+<ore:coil>.add(<ic2:crafting:5>);
+<ore:coil>.add(<magneticraft:crafting:3>);
+<ore:mipa_adv>.add(<magneticraft:crafting:3>);
 
 
 

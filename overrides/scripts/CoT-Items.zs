@@ -17,3 +17,11 @@ chroma_core.register();
 var cubic_carbon = VanillaFactory.createItem("cubic_carbon");
 cubic_carbon.maxStackSize = 64;
 cubic_carbon.register();
+
+var spool = VanillaFactory.createItem("spool");
+spool.maxStackSize = 20;
+spool.register();
+
+var adv_spool = VanillaFactory.createItem("advanced_spool");
+adv_spool.maxStackSize = 20;
+adv_spool.register();

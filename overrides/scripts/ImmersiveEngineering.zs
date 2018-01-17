@@ -81,11 +81,6 @@ recipes.addShapedMirrored("IERecipe14", <immersiveengineering:wirecoil:5>*2, [[<
 
 
 
-#Another way of making Red Fiber
-mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:red_fiber>*4, <immersiveengineering:material:20>*4, <ore:dustRedstone>*16, 300);
-
-
-
 #Crafting Components
 recipes.remove(<immersiveengineering:material:8>);
 recipes.addShapedMirrored("IERecipe15", <immersiveengineering:material:8>*2, [[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<betterwithmods:material:49>, <betterwithmods:material:51>, <betterwithmods:material:49>], [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]]);
@@ -106,7 +101,7 @@ recipes.remove(<immersiveengineering:metal_decoration0:5>);
 recipes.addShapedMirrored("IERecipe19", <immersiveengineering:metal_decoration0:5>*2, [[<ore:plateSteel>, <crossroads:multi_piston>, <ore:plateSteel>], [<immersiveengineering:material:9>, <ore:scaffoldingSteel>, <immersiveengineering:material:9>], [<ore:plateSteel>, <crossroads:multi_piston>, <ore:plateSteel>]]);
 
 recipes.remove(<immersiveengineering:metal_decoration0:7>);
-recipes.addShapedMirrored("IERecipe20", <immersiveengineering:metal_decoration0:7>*2, [[<ore:plateLead>, <ic2:crafting:5>, <ore:plateLead>], [<ic2:crafting:5>, <ic2:heat_storage>, <ic2:crafting:5>], [<ore:plateLead>, <ic2:crafting:5>, <ore:plateLead>]]);
+recipes.addShapedMirrored("IERecipe20", <immersiveengineering:metal_decoration0:7>*2, [[<ore:plateSteel>, <ic2:crafting:5>, <ore:plateSteel>], [<ic2:crafting:5>, <ic2:heat_storage>, <ic2:rotor_steel>], [<ore:plateSteel>, <ic2:crafting:5>, <ore:plateSteel>]]);
 
 
 
@@ -124,6 +119,10 @@ furnace.remove(<ore:nuggetAluminium>);
 
 #Diesel Generator Fuels
 mods.immersiveengineering.DieselHandler.addFuel(<liquid:infernal_fuel>, 10000);
+
+
+
+#Coil Blocks
 
 
 

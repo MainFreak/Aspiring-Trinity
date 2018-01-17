@@ -41,9 +41,4 @@ mods.betterwithmods.Mill.add(<magneticraft:dusts:14>, null, [<ore:oreZinc>]);
 
 
 
-#Red Fiber Recipe (for now the only one)
-mods.betterwithmods.Cauldron.add(<contenttweaker:red_fiber>, null, [<ore:dustRedstone>*16, <ore:fiberHemp>]);
-
-
-
 print("We are now absolutely the best!");

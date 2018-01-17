@@ -84,6 +84,14 @@ recipes.addShapedMirrored("IERecipe13", <immersiveengineering:metal_decoration0:
 recipes.remove(<immersiveengineering:metal_decoration0:5>);
 recipes.addShapedMirrored("IERecipe14", <immersiveengineering:metal_decoration0:5>*2, [[<ore:plateSteel>, <crossroads:multi_piston>, <ore:plateSteel>], [<immersiveengineering:material:9>, <ore:scaffoldingSteel>, <immersiveengineering:material:9>], [<ore:plateSteel>, <crossroads:multi_piston>, <ore:plateSteel>]]);
 
+recipes.remove(<immersiveengineering:metal_decoration0:7>);
+recipes.addShapedMirrored("IERecipe15", <immersiveengineering:metal_decoration0:7>*2, [[<ore:plateLead>, <ic2:crafting:5>, <ore:plateLead>], [<ic2:crafting:5>, <ic2:heat_storage>, <ic2:crafting:5>], [<ore:plateLead>, <ic2:crafting:5>, <ore:plateLead>]]);
+
+
+
+#Wire Cutters
+recipes.remove(<immersiveengineering:tool:1>);
+recipes.addShapedMirrored("IERecipe16", <immersiveengineering:tool:1>, [[<minecraft:stick>, <ore:ingotInvar>, null>],[null, <minecraft:stick>, null],[null, null, null]]);
 
 
 #Aluminium Recipe

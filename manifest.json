@@ -3,7 +3,7 @@
     "version": "1.12.2",
     "modLoaders": [
       {
-        "id": "forge-14.23.1.2589",
+        "id": "forge-14.23.1.2590",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Aspiring-Trinity",
-  "version": "0.07",
+  "version": "0.08",
   "author": "mainfreak_1",
   "files": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 2517641,
+      "fileID": 2520855,
       "required": true
     },
     {
@@ -101,12 +101,12 @@
     },
     {
       "projectID": 237065,
-      "fileID": 2513732,
+      "fileID": 2521101,
       "required": true
     },
     {
       "projectID": 59751,
-      "fileID": 2518143,
+      "fileID": 2520694,
       "required": true
     },
     {
@@ -141,7 +141,7 @@
     },
     {
       "projectID": 238891,
-      "fileID": 2517428,
+      "fileID": 2520910,
       "required": true
     },
     {
@@ -221,7 +221,7 @@
     },
     {
       "projectID": 228404,
-      "fileID": 2520316,
+      "fileID": 2520975,
       "required": true
     },
     {
@@ -236,7 +236,7 @@
     },
     {
       "projectID": 221857,
-      "fileID": 2519670,
+      "fileID": 2520685,
       "required": true
     },
     {
@@ -351,7 +351,7 @@
     },
     {
       "projectID": 32274,
-      "fileID": 2514298,
+      "fileID": 2520372,
       "required": true
     },
     {
@@ -431,7 +431,7 @@
     },
     {
       "projectID": 266515,
-      "fileID": 2516439,
+      "fileID": 2520927,
       "required": true
     },
     {
@@ -476,7 +476,7 @@
     },
     {
       "projectID": 246996,
-      "fileID": 2513730,
+      "fileID": 2521100,
       "required": true
     },
     {
@@ -686,12 +686,17 @@
     },
     {
       "projectID": 284351,
-      "fileID": 2520461,
+      "fileID": 2521000,
       "required": true
     },
     {
       "projectID": 224218,
       "fileID": 2516780,
+      "required": true
+    },
+    {
+      "projectID": 222097,
+      "fileID": 2440454,
       "required": true
     }
   ],

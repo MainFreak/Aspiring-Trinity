@@ -16,7 +16,7 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <contenttweaker:chroma_core>, [
 
 
 #Red Fiber Recipe (for now the only one)
-mods.betterwithmods.StokedCauldron.add(<contenttweaker:red_fiber>, [<ore:dustRedstone>*8, <ore:fiberHemp>]);
+mods.betterwithmods.StokedCauldron.add(<contenttweaker:red_fiber>, null, [<ore:dustRedstone>*8, <ore:fiberHemp>]);
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:red_fiber>*4, <immersiveengineering:material:20>*4, <ore:dustRedstone>*16, 300);
 
 

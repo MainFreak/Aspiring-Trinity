@@ -12,7 +12,7 @@ recipes.remove(<magneticraft:sluice_box>);
 recipes.addShapedMirrored("MagnetRecipe01", <magneticraft:sluice_box>, [[<ore:plankWood>, <ore:stickWood>, null], [<magneticraft:crafting:5>, <ore:plankWood>, <ore:stickWood>], [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
 
 recipes.remove(<magneticraft:crafting:3>);
-recipes.addShaped("MagnetRecipe02", <magneticraft:crafting:3>, [[<magneticraft:copper_coil>, <magneticraft:copper_coil>, <magneticraft:copper_coil>], [<magneticraft:copper_coil>, <contenttweaker:advanced_brushing>, <magneticraft:copper_coil>], [<magneticraft:copper_coil>, <magneticraft:copper_coil>, <magneticraft:copper_coil>]]);
+recipes.addShaped("MagnetRecipe02", <magneticraft:crafting:3>, [[<magneticraft:copper_coil>, <magneticraft:copper_coil>, <magneticraft:copper_coil>], [<magneticraft:copper_coil>, <contenttweaker:advanced_spool>, <magneticraft:copper_coil>], [<magneticraft:copper_coil>, <magneticraft:copper_coil>, <magneticraft:copper_coil>]]);
 
 recipes.remove(<magneticraft:crafting:5>);
 recipes.addShaped("MagnetRecipe03", <magneticraft:crafting:5>, [[<ore:string>, <ore:plateIron>, <ore:string>], [<ore:plateIron>, <ore:string>, <ore:plateIron>], [<ore:string>, <ore:plateIron>, <ore:string>]]);

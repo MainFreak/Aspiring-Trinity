@@ -50,7 +50,6 @@ recipes.remove(<actuallyadditions:item_food:*>);
 recipes.remove(<actuallyadditions:block_coal_generator>);
 recipes.remove(<actuallyadditions:block_oil_generator>);
 recipes.remove(<aroma1997sdimension:dimensionchanger>);
-recipes.remove(<extendedcrafting:handheld_table>);
 
 
 
@@ -193,7 +192,7 @@ recipes.removeShapeless(<immersiveengineering:metal:40>);
 recipes.remove(<ore:ingotBrass>);
 recipes.removeShapeless(<thermalfoundation:material:163>, [<ore:ingotTin>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
 recipes.removeShaped(<thermalfoundation:material:163>, [[<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>], [<ore:nuggetCopper>, <ore:nuggetTin>, <ore:nuggetCopper>], [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>]]);
-recipes.removeShapeless(<extendedcrafting:material>, [<ore:ingotIron>, <ore:dyeBlack>]);
+
 
 
 #Disabled Recipes for everything in JAOPCA. Too Much trouble disabling it all by hand.

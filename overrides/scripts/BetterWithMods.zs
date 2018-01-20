@@ -16,16 +16,16 @@ recipes.addShapeless("BWMRecipe03", <roots:straw>, [<minecraft:tallgrass:1>, <mi
 
 
 #earlygame ore processing. You deserve it <3
-mods.betterwithmods.Cauldron.add(<minecraft:iron_ingot>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreIron>]);
-mods.betterwithmods.Cauldron.add(<minecraft:gold_ingot>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreGold>]);
-mods.betterwithmods.Cauldron.add(<thermalfoundation:material:128>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreCopper>]);
-mods.betterwithmods.Cauldron.add(<thermalfoundation:material:129>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreTin>]);
-mods.betterwithmods.Cauldron.add(<thermalfoundation:material:130>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreSilver>]);
-mods.betterwithmods.Cauldron.add(<thermalfoundation:material:131>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreLead>]);
-mods.betterwithmods.Cauldron.add(<thermalfoundation:material:132>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreAluminum>]);
-mods.betterwithmods.Cauldron.add(<thermalfoundation:material:133>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreNickel>]);
-mods.betterwithmods.Cauldron.add(<actuallyadditions:item_misc:5>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreQuartzBlack>]);
-mods.betterwithmods.Cauldron.add(<clockworkphase2:ingot_zinc>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreZinc>]);
+mods.betterwithmods.Crucible.add(<minecraft:iron_ingot>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreIron>]);
+mods.betterwithmods.Crucible.add(<minecraft:gold_ingot>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreGold>]);
+mods.betterwithmods.Crucible.add(<thermalfoundation:material:128>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreCopper>]);
+mods.betterwithmods.Crucible.add(<thermalfoundation:material:129>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreTin>]);
+mods.betterwithmods.Crucible.add(<thermalfoundation:material:130>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreSilver>]);
+mods.betterwithmods.Crucible.add(<thermalfoundation:material:131>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreLead>]);
+mods.betterwithmods.Crucible.add(<thermalfoundation:material:132>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreAluminum>]);
+mods.betterwithmods.Crucible.add(<thermalfoundation:material:133>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreNickel>]);
+mods.betterwithmods.Crucible.add(<actuallyadditions:item_misc:5>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreQuartzBlack>]);
+mods.betterwithmods.Crucible.add(<clockworkphase2:ingot_zinc>, <thermalfoundation:material:864>, [<ore:sand>, <ore:oreZinc>]);
 
 mods.betterwithmods.Mill.add(<thermalfoundation:material:0>, null, [<ore:oreIron>]);
 mods.betterwithmods.Mill.add(<thermalfoundation:material:1>, null, [<ore:oreGold>]);

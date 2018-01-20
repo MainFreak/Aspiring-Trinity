@@ -123,6 +123,8 @@ mods.immersiveengineering.DieselHandler.addFuel(<liquid:infernal_fuel>, 10000);
 
 
 #Coil Blocks
+recipes.remove(<immersiveengineering:metal_decoration0:0>);
+recipes.addShaped("IERecipe22", <immersiveengineering:metal_decoration0:0>, [[<ore:coil>, <ore:coil>, <ore:coil>], [<ore:coil>, <ic2:crafting:29>, <ore:coil>], [<ore:coil>, <ore:coil>, <ore:coil>]]);
 
 
 

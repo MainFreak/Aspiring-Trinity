@@ -1,37 +1,19 @@
 {
-    "images":
-    {
-        "title":
-        {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
-        },
-        
-        "edition":
-        {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
-            "alignment" : "top_center"
-        }
-    },
-    
     "buttons":
     {
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
+            "posX" : -250,
+            "posY" : 0,
+            "width" : 80,
             "height" : 20,
-            "action" : 
+            "alignment" : "center",
+            "texture" : "aspiringtrinity:textures/button.png",
+            "normalTextColor" : 6618980,
+            "hoverTextColor" : 16777215,
+            "shadow" : false,
+			"action" : 
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
@@ -41,11 +23,16 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
+            "posX" : -170,
+            "posY" : 0,
+            "width" : 80,
             "height" : 20,
-            "action" : 
+            "alignment" : "center",
+            "texture" : "aspiringtrinity:textures/button.png",
+            "normalTextColor" : 6618980,
+            "hoverTextColor" : 16777215,
+            "shadow" : false,
+			"action" : 
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
@@ -55,11 +42,16 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
+            "posX" : -90,
+            "posY" : 0,
+            "width" : 80,
             "height" : 20,
-            "action" : 
+            "alignment" : "center",
+            "texture" : "aspiringtrinity:textures/button.png",
+            "normalTextColor" : 6618980,
+            "hoverTextColor" : 16777215,
+            "shadow" : false,
+			"action" : 
             {
                 "type" : "openGui",
                 "gui" : "mods"
@@ -69,104 +61,96 @@
         "options":
         {
             "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : -10,
+            "posY" : 0,
+            "width" : 80,
             "height" : 20,
-            "action" : 
+            "alignment" : "center",
+            "texture" : "aspiringtrinity:textures/button.png",
+            "normalTextColor" : 6618980,
+            "hoverTextColor" : 16777215,
+            "shadow" : false,
+			"action" : 
             {
                 "type" : "openGui",
                 "gui" : "options"
             }
         },
         
-        "quit":
-        {
-            "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "quit"
-            }
-        },
-        
         "language":
         {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
+            "text" : "Language",
+            "posX" : 70,
+            "posY" : 0,
+            "width" : 80,
             "height" : 20,
-            "action" : 
+            "alignment" : "center",
+            "texture" : "aspiringtrinity:textures/button.png",
+            "normalTextColor" : 6618980,
+            "hoverTextColor" : 16777215,
+            "shadow" : false,
+			"action" : 
             {
                 "type" : "openGui",
                 "gui" : "languages"
             }
         },
         
-        "refresh":
+        "quit":
         {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
+            "text" : "menu.quit",
+            "posX" : 150,
+            "posY" : 0,
+            "width" : 80,
             "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
+            "alignment" : "center",
+            "texture" : "aspiringtrinity:textures/button.png",
+            "normalTextColor" : 6618980,
+            "hoverTextColor" : 16777215,
+            "shadow" : false,
+			"action" : 
             {
-                "type" : "refresh"
+                "type" : "quit"
             }
         }
     },
     
-    "labels":
+    "texts":
     {
         "mojang":
         {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "text" : "",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
-            "alignment" : "bottom_right",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "credits"
-            }
+            "alignment" : "bottom_right"
         },
         
-        "fml":
+        "mcversion":
         {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -45,
+            "text" : "Minecraft v. #mcversion#",
+            "posX" : 0,
+            "posY" : 0,
+            "color" : -1,
+            "alignment" : "top_left"
+        },
+        
+        "mods":
+        {
+            "text" : "#modsloaded# Mods loaded",
+            "posX" : 0,
+            "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_left"
         }
     },
     
     "other":
-    {
-        "splash-text":
+    { 
+        "background":
         {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "aspiringtrinity:textures/atmainmenu.png",
+            "mode" : "fill"
         }
     }
 }

@@ -16,6 +16,9 @@ print("Superconverting items to other items, and you don't even know it!");
 
 
 
+#Visual Glitch
+<ore:plateAluminum>.remove(<magneticraft:light_plates:7>);
+
 #Not quite nuggets tbh
 <ore:nuggetAluminum>.remove(<oreberries:aluminum_oreberry>);
 <ore:nuggetAluminium>.remove(<oreberries:aluminum_oreberry>);

@@ -27,7 +27,11 @@ recipes.addShaped("IC2Recipe03", <ic2:cutter>, [[<actuallyadditions:item_misc:2>
 
 #Machines:
 
-#Electric Furnace
+#Solid Fueled Firebox
+recipes.remove(<ic2:te:15>);
+recipes.addShaped("IC2Recipe04", <ic2:te:15>, [[<ore:plateAluminum>, <ic2:crafting:7>, <ore:plateAluminum>], [<ore:plateAluminum>, <ic2:te:46>, <ore:plateAluminum>]]);
+
+#Iron Furnace
 recipes.remove(<ic2:te:46>);
 recipes.addShaped("IC2Recipe04", <ic2:te:46>, [[<betterwithaddons:wrought_bars>, <ore:plateIron>, <betterwithaddons:wrought_bars>], [<ore:plateIron>, <minecraft:furnace>, <ore:plateIron>], [<betterwithaddons:wrought_bars>, <ore:plateIron>, <betterwithaddons:wrought_bars>]]);
 

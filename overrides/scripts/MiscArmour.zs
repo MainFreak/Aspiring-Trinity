@@ -200,4 +200,20 @@ recipes.addShaped("ArmourRecipe80", <botania:manasteelboots>, [[<ore:ingotManast
 
 
 
+#Manasteel Armour (Botania)
+
+recipes.remove(<ic2:bronze_helmet>);
+recipes.addShaped("ArmourRecipe77", <ic2:bronze_helmet>, [[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [<ore:plateBronze>, <minecraft:leather_helmet>, <ore:plateBronze>]]);
+
+recipes.remove(<ic2:bronze_chestplate>);
+recipes.addShaped("ArmourRecipe78", <ic2:bronze_chestplate>, [[<ore:plateBronze>, <minecraft:leather_chestplate>, <ore:plateBronze>], [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]]);
+
+recipes.remove(<ic2:bronze_leggings>);
+recipes.addShaped("ArmourRecipe79", <ic2:bronze_leggings>, [[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [<ore:plateBronze>, <minecraft:leather_leggings>, <ore:plateBronze>], [<ore:plateBronze>, null, <ore:plateBronze>]]);
+
+recipes.remove(<ic2:bronze_boots>);
+recipes.addShaped("ArmourRecipe80", <ic2:bronze_boots>, [[<ore:plateBronze>, <minecraft:leather_boots>, <ore:plateBronze>], [<ore:plateBronze>, null, <ore:plateBronze>]]);
+
+
+
 print("They look just like new with those patches!");

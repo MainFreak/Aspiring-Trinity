@@ -42,6 +42,14 @@ recipes.remove(<forestry:kit_shovel>);
 
 
 
+#Clearing Shape Cards.
+recipes.remove(<rftools:shape_card:5>);
+recipes.remove(<rftools:shape_card:6>);
+recipes.remove(<rftools:shape_card:7>);
+recipes.remove(<rftools:shape_card:9>);
+
+
+
 #Miscellaneous stuff no one wants to see anyways
 recipes.remove(<ic2:te:82>);
 recipes.remove(<ic2:te:4>);

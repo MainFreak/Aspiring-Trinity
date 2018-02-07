@@ -39,9 +39,19 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:flux_dust>, 
 #Satchels
 recipes.remove(<thermalexpansion:satchel:*>);
 
-recipes.addShapedMirrored("TERecipe05", <thermalexpansion:satchel:0>, [[<betterwithmods:material:8>, <harvestcraft:wovencottonitem>, <betterwithmods:material:8>], [<harvestcraft:wovencottonitem>, <thermalexpansion:strongbox:0>, <harvestcraft:wovencottonitem>], [<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);
+recipes.addShapedMirrored("TERecipe05", <thermalexpansion:satchel:0>, [[<betterwithmods:material:9>, <harvestcraft:wovencottonitem>, <betterwithmods:material:9>], [<ore:plateTin>, <thermalexpansion:strongbox:0>, <ore:plateTin>], [<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);
 
-recipes.addShapedMirrored("TERecipe06", <thermalexpansion:satchel:1>, [[<harvestcraft:hardenedleatheritem>, <harvestcraft:wovencottonitem>, <harvestcraft:hardenedleatheritem>], [<thermalfoundation :rockwool:7>, <thermalexpansion:satchel:0>.marked("satchel"), <thermalfoundation:rockwool:7>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
+recipes.addShapedMirrored("TERecipe06", <thermalexpansion:satchel:1>, [[<harvestcraft:hardenedleatheritem>, <harvestcraft:wovencottonitem>, <harvestcraft:hardenedleatheritem>], [<ore:plateInvar>, <thermalexpansion:satchel:0>.marked("satchel"), <ore:plateInvar>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
+function(out, ins, cInfo) {
+	return out.withTag(ins.satchel.tag);
+}, null);
+
+recipes.addShapedMirrored("TERecipe07", <thermalexpansion:satchel:2>, [[<betterwithaddons:bolt:0>, <binniecore:storage:1>, <betterwithaddons:bolt:0>], [<ore:plateElectrumFlux>, <thermalexpansion:satchel:1>.marked("satchel"), <ore:plateElectrumFlux>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
+function(out, ins, cInfo) {
+	return out.withTag(ins.satchel.tag);
+}, null);
+
+recipes.addShapedMirrored("TERecipe08", <thermalexpansion:satchel:3>, [[<betterwithaddons:bolt:0>, <binniecore:storage:4>, <betterwithaddons:bolt:0>], [<ore:plateSignalum>, <thermalexpansion:satchel:2>.marked("satchel"), <ore:plateSignalum>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
 function(out, ins, cInfo) {
 	return out.withTag(ins.satchel.tag);
 }, null);

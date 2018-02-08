@@ -69,6 +69,16 @@ print("Superconverting items to other items, and you don't even know it!");
 <ore:mipa_adv>.add(<magneticraft:crafting:3>);
 
 
+/*
+#Fixing Compartment Localization
+game.setLocalization(binniecore.storage.compartment.name,"Compartment");
+game.setLocalization(binniecore.storage.compartment_copper.name,"Copper Compartment");
+game.setLocalization(binniecore.storage.compartment_bronze.name,"Bronze Compartment");
+game.setLocalization(binniecore.storage.compartment_iron.name,"Iron Compartment");
+game.setLocalization(binniecore.storage.compartment_gold.name,"Golden Compartment");
+game.setLocalization(binniecore.storage.compartment_diamond.name,"Diamond Compartment");
+*/
+
 
 #OD Fix for Sheets
 <ore:plateIron>.remove(<magneticraft:light_plates:0>);

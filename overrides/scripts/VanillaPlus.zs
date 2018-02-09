@@ -23,5 +23,13 @@ recipes.addShapeless("VanRecipe05", <minecraft:chest>, [<extrautils2:minichest>,
 mods.artisanworktables.Worktable.addRecipeShaped("carpenter", <minecraft:chest>*2, <ore:carpenters_handsaw>, 20, true, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 
 
+#Quark Chests for Deco Freaks!
+recipes.addShapeless("VanRecipe06", <quark:custom_chest:0>, [<minecraft:chest>, <minecraft:planks:1>]);
+recipes.addShapeless("VanRecipe07", <quark:custom_chest:1>, [<minecraft:chest>, <minecraft:planks:2>]);
+recipes.addShapeless("VanRecipe08", <quark:custom_chest:2>, [<minecraft:chest>, <minecraft:planks:3>]);
+recipes.addShapeless("VanRecipe09", <quark:custom_chest:3>, [<minecraft:chest>, <minecraft:planks:4>]);
+recipes.addShapeless("VanRecipe10", <quark:custom_chest:4>, [<minecraft:chest>, <minecraft:planks:5>]);
+
+
 
 print("Vanilla plus...");

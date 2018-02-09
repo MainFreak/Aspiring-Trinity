@@ -8,48 +8,48 @@ print("Expanding thermally...");
 recipes.remove(<thermalexpansion:frame:*>);
 
 
-recipes.addShaped("TERecipe02", <thermalexpansion:frame:64>,[[<ore:plateTin>, <appliedenergistics2:quartz_glass>, <ore:plateTin>], [<appliedenergistics2:quartz_glass>, <clockworkphase2:construction_block>, <appliedenergistics2:quartz_glass>], [<ore:plateTin>, <appliedenergistics2:quartz_glass>, <ore:plateTin>]]);
+recipes.addShaped("TERecipe01", <thermalexpansion:frame:64>,[[<ore:plateTin>, <appliedenergistics2:quartz_glass>, <ore:plateTin>], [<appliedenergistics2:quartz_glass>, <clockworkphase2:construction_block>, <appliedenergistics2:quartz_glass>], [<ore:plateTin>, <appliedenergistics2:quartz_glass>, <ore:plateTin>]]);
 
 
 #Dynamos. Needs a tank, do not forget to add that before releasing this!
 recipes.remove(<thermalexpansion:dynamo:0>);
-recipes.addShaped("TERecipe01", <thermalexpansion:dynamo:0>, [[null, <thermalfoundation:material:514>, null], [<ore:gearCopper>, <thermalfoundation:material:512>, <ore:gearCopper>], [<ore:plateCopper>, <mekanism:machineblock2:11>.withTag({tier: 0}), <ore:plateCopper>]]);
+recipes.addShaped("TERecipe02", <thermalexpansion:dynamo:0>, [[null, <thermalfoundation:material:514>, null], [<ore:gearCopper>, <thermalfoundation:material:512>, <ore:gearCopper>], [<ore:plateCopper>, <mekanism:machineblock2:11>.withTag({tier: 0}), <ore:plateCopper>]]);
 
 
 
 #Strongbox
 recipes.remove(<thermalexpansion:strongbox:0>);
-recipes.addShaped("TERecipe02", <thermalexpansion:strongbox:0>, [[null, <ore:plateTin>, null], [<ore:plateTin>, <ore:chestWood>, <ore:plateTin>], [null, <ore:plateTin>, null]]);
+recipes.addShaped("TERecipe03", <thermalexpansion:strongbox:0>, [[null, <ore:plateTin>, null], [<ore:plateTin>, <ore:chestWood>, <ore:plateTin>], [null, <ore:plateTin>, null]]);
 
 
 
 #Satchels
 recipes.remove(<thermalexpansion:satchel:*>);
 
-recipes.addShapedMirrored("TERecipe02", <thermalexpansion:satchel:0>, [[<betterwithmods:material:9>, <harvestcraft:wovencottonitem>, <betterwithmods:material:9>], [<ore:plateTin>, <thermalexpansion:strongbox:0>, <ore:plateTin>], [<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);
+recipes.addShapedMirrored("TERecipe04", <thermalexpansion:satchel:0>, [[<betterwithmods:material:9>, <harvestcraft:wovencottonitem>, <betterwithmods:material:9>], [<ore:plateTin>, <thermalexpansion:strongbox:0>, <ore:plateTin>], [<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);
 
-recipes.addShapedMirrored("TERecipe03", <thermalexpansion:satchel:1>, [[<harvestcraft:hardenedleatheritem>, <harvestcraft:wovencottonitem>, <harvestcraft:hardenedleatheritem>], [<ore:plateInvar>, <thermalexpansion:satchel:0>.marked("satchel"), <ore:plateInvar>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
+recipes.addShapedMirrored("TERecipe05", <thermalexpansion:satchel:1>, [[<harvestcraft:hardenedleatheritem>, <harvestcraft:wovencottonitem>, <harvestcraft:hardenedleatheritem>], [<ore:plateInvar>, <thermalexpansion:satchel:0>.marked("satchel"), <ore:plateInvar>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
 function(out, ins, cInfo) {
 	return out.withTag(ins.satchel.tag);
 }, null);
 
-recipes.addShapedMirrored("TERecipe04", <thermalexpansion:satchel:2>, [[<magneticraft:crafting:6>, <binniecore:storage:1>, <magneticraft:crafting:6>], [<ore:plateElectrumFlux>, <thermalexpansion:satchel:1>.marked("satchel"), <ore:plateElectrumFlux>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
+recipes.addShapedMirrored("TERecipe06", <thermalexpansion:satchel:2>, [[<magneticraft:crafting:6>, <binniecore:storage:1>, <magneticraft:crafting:6>], [<ore:plateElectrumFlux>, <thermalexpansion:satchel:1>.marked("satchel"), <ore:plateElectrumFlux>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
 function(out, ins, cInfo) {
 	return out.withTag(ins.satchel.tag);
 }, null);
 
-recipes.addShapedMirrored("TERecipe05", <thermalexpansion:satchel:3>, [[<betterwithaddons:bolt:0>, <binniecore:storage:4>, <betterwithaddons:bolt:0>], [<ore:plateSignalum>, <thermalexpansion:satchel:2>.marked("satchel"), <ore:plateSignalum>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
+recipes.addShapedMirrored("TERecipe07", <thermalexpansion:satchel:3>, [[<betterwithaddons:bolt:0>, <binniecore:storage:4>, <betterwithaddons:bolt:0>], [<ore:plateSignalum>, <thermalexpansion:satchel:2>.marked("satchel"), <ore:plateSignalum>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
 function(out, ins, cInfo) {
 	return out.withTag(ins.satchel.tag);
 }, null);
 
-recipes.addShapedMirrored("TERecipe06", <thermalexpansion:satchel:4>, [[<embers:ashen_cloth>, <binniecore:storage:5>, <embers:ashen_cloth>], [<ore:plateEnderium>, <thermalexpansion:satchel:2>.marked("satchel"), <ore:plateEnderium>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
+recipes.addShapedMirrored("TERecipe08", <thermalexpansion:satchel:4>, [[<embers:ashen_cloth>, <binniecore:storage:5>, <embers:ashen_cloth>], [<ore:plateEnderium>, <thermalexpansion:satchel:2>.marked("satchel"), <ore:plateEnderium>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
 function(out, ins, cInfo) {
 	return out.withTag(ins.satchel.tag);
 }, null);
 
 #Void Satchel
-recipes.addShapedMirrored("TERecipe07", <thermalexpansion:satchel:100>, [[<betterwithmods:material:9>, <harvestcraft:wovencottonitem>, <betterwithmods:material:9>], [<minecraft:wool:15>, <openblocks:dev_null>, <minecraft:wool:15>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]]);
+recipes.addShapedMirrored("TERecipe09", <thermalexpansion:satchel:100>, [[<betterwithmods:material:9>, <harvestcraft:wovencottonitem>, <betterwithmods:material:9>], [<minecraft:wool:15>, <openblocks:dev_null>, <minecraft:wool:15>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]]);
 
 
 

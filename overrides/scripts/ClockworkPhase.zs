@@ -74,4 +74,11 @@ recipes.addShaped("CPRecipes03", <clockworkphase2:clockwork_shovel>, [[null, <or
 
 
 
+#Changing this to make more sense with other mods.
+recipes.remove(<clockworkphase2:construction_block>);
+recipes.addShaped("CPRecipes04", <clockworkphase2:construction_block>, [[<ore:plateIron>, <extrautils2:decorativeglass:0>, <ore:plateIron>], [<extrautils2:decorativeglass:0>, <thermalexpansion:strongbox:0>, <extrautils2:decorativeglass:0>], [<ore:plateIron>, <extrautils2:decorativeglass:0>, <ore:plateIron>]]);
+<clockworkphase2:construction_block>.displayName = "Modular Machine Mainframe";
+
+
+
 print("I'll find another waay... back... here...");

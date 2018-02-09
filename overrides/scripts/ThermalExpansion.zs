@@ -2,13 +2,24 @@
 
 print("Expanding thermally...");
 
+
+
+#Frames
 recipes.remove(<thermalexpansion:frame:*>);
 
+
+recipes.addShaped("TERecipe02", <thermalexpansion:frame:64>,[[<ore:plateTin>, <appliedenergistics2:quartz_glass>, <ore:plateTin>], [<appliedenergistics2:quartz_glass>, <clockworkphase2:construction_block>, <appliedenergistics2:quartz_glass>], [<ore:plateTin>, <appliedenergistics2:quartz_glass>, <ore:plateTin>]]);
 
 
 #Dynamos. Needs a tank, do not forget to add that before releasing this!
 recipes.remove(<thermalexpansion:dynamo:0>);
 recipes.addShaped("TERecipe01", <thermalexpansion:dynamo:0>, [[null, <thermalfoundation:material:514>, null], [<ore:gearCopper>, <thermalfoundation:material:512>, <ore:gearCopper>], [<ore:plateCopper>, <mekanism:machineblock2:11>.withTag({tier: 0}), <ore:plateCopper>]]);
+
+
+
+#Strongbox
+recipes.remove(<thermalexpansion:strongbox:0>);
+recipes.addShaped("TERecipe02", <thermalexpansion:strongbox:0>, [[null, <ore:plateTin>, null], [<ore:plateTin>, <ore:chestWood>, <ore:plateTin>], [null, <ore:plateTin>, null]]);
 
 
 

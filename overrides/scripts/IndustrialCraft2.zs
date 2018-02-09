@@ -51,12 +51,19 @@ recipes.addShaped("IC2Recipe08", <ic2:resource:12>, [[<ore:plateAluminum>, <ore:
 
 #MiPa:
 
+#Circuit
+recipes.remove(<ic2:crafting:1>);
+recipes.addShaped("IC2Recipe09", <ic2:crafting:1>, [[<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})], [<contenttweaker:red_fiber>, <ore:plateSteel>, <contenttweaker:red_fiber>], [<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})]]);
+recipes.addShaped("IC2Recipe10", <ic2:crafting:1>, [[<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <contenttweaker:red_fiber>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})], [<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ore:plateSteel>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})], [<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <contenttweaker:red_fiber>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})]]);
+
 #Coil
 recipes.remove(<ic2:crafting:5>);
-recipes.addShaped("IC2Recipe09", <ic2:crafting:5>, [[<magneticraft:copper_coil>, <ore:stickIron>, <magneticraft:copper_coil>]]);
+recipes.addShaped("IC2Recipe11", <ic2:crafting:5>, [[<magneticraft:copper_coil>, <ore:stickIron>, <magneticraft:copper_coil>]]);
 
 #Motor
 recipes.remove(<ic2:crafting:6>);
-recipes.addShaped("IC2Recipe10", <ic2:crafting:6>, [[<ic2:casing:6>, <ic2:casing:6>, <ic2:casing:6>], [<ic2:crafting:5>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}), <ic2:crafting:5>], [<ic2:casing:6>, <ic2:casing:6>, <ic2:casing:6>]]);
+recipes.addShaped("IC2Recipe12", <ic2:crafting:6>, [[<ic2:casing:6>, <ic2:casing:6>, <ic2:casing:6>], [<ic2:crafting:5>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}), <ic2:crafting:5>], [<ic2:casing:6>, <ic2:casing:6>, <ic2:casing:6>]]);
+
+
 
 print("This feels familiar, but not quite the same...");

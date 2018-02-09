@@ -2,10 +2,7 @@
 
 print("Expanding thermally...");
 
-
-
 recipes.remove(<thermalexpansion:frame:*>);
-recipes.remove(<thermalexpansion:florb:*>);
 
 
 
@@ -15,15 +12,33 @@ recipes.addShaped("TERecipe01", <thermalexpansion:dynamo:0>, [[null, <thermalfou
 
 
 
-#Coils
-recipes.remove(<thermalfoundation:material:513>);
-recipes.addShapedMirrored("TERecipe02", <thermalfoundation:material:513>, [[null, <contenttweaker:red_fiber>, <extrautils2:ingredients>], [<contenttweaker:red_fiber>, <ore:rodGold>, <contenttweaker:red_fiber>], [<extrautils2:ingredients>, <contenttweaker:red_fiber>, null]]);
+#Satchels
+recipes.remove(<thermalexpansion:satchel:*>);
 
-recipes.remove(<thermalfoundation:material:514>);
-recipes.addShapedMirrored("TERecipe03", <thermalfoundation:material:514>, [[null, <contenttweaker:red_fiber>, <extrautils2:ingredients>], [<contenttweaker:red_fiber>, <ore:rodSilver>, <contenttweaker:red_fiber>], [<extrautils2:ingredients>, <contenttweaker:red_fiber>, null]]);
+recipes.addShapedMirrored("TERecipe02", <thermalexpansion:satchel:0>, [[<betterwithmods:material:9>, <harvestcraft:wovencottonitem>, <betterwithmods:material:9>], [<ore:plateTin>, <thermalexpansion:strongbox:0>, <ore:plateTin>], [<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);
 
-recipes.remove(<thermalfoundation:material:515>);
-recipes.addShapedMirrored("TERecipe04", <thermalfoundation:material:515>, [[<extrautils2:ingredients>, <contenttweaker:red_fiber>, null], [<contenttweaker:red_fiber>, <ore:rodLead>, <contenttweaker:red_fiber>], [null, <contenttweaker:red_fiber>, <extrautils2:ingredients>]]);
+recipes.addShapedMirrored("TERecipe03", <thermalexpansion:satchel:1>, [[<harvestcraft:hardenedleatheritem>, <harvestcraft:wovencottonitem>, <harvestcraft:hardenedleatheritem>], [<ore:plateInvar>, <thermalexpansion:satchel:0>.marked("satchel"), <ore:plateInvar>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
+function(out, ins, cInfo) {
+	return out.withTag(ins.satchel.tag);
+}, null);
+
+recipes.addShapedMirrored("TERecipe04", <thermalexpansion:satchel:2>, [[<magneticraft:crafting:6>, <binniecore:storage:1>, <magneticraft:crafting:6>], [<ore:plateElectrumFlux>, <thermalexpansion:satchel:1>.marked("satchel"), <ore:plateElectrumFlux>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
+function(out, ins, cInfo) {
+	return out.withTag(ins.satchel.tag);
+}, null);
+
+recipes.addShapedMirrored("TERecipe05", <thermalexpansion:satchel:3>, [[<betterwithaddons:bolt:0>, <binniecore:storage:4>, <betterwithaddons:bolt:0>], [<ore:plateSignalum>, <thermalexpansion:satchel:2>.marked("satchel"), <ore:plateSignalum>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
+function(out, ins, cInfo) {
+	return out.withTag(ins.satchel.tag);
+}, null);
+
+recipes.addShapedMirrored("TERecipe06", <thermalexpansion:satchel:4>, [[<embers:ashen_cloth>, <binniecore:storage:5>, <embers:ashen_cloth>], [<ore:plateEnderium>, <thermalexpansion:satchel:2>.marked("satchel"), <ore:plateEnderium>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
+function(out, ins, cInfo) {
+	return out.withTag(ins.satchel.tag);
+}, null);
+
+#Void Satchel
+recipes.addShapedMirrored("TERecipe07", <thermalexpansion:satchel:100>, [[<betterwithmods:material:9>, <harvestcraft:wovencottonitem>, <betterwithmods:material:9>], [<minecraft:wool:15>, <openblocks:dev_null>, <minecraft:wool:15>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]]);
 
 
 
@@ -33,33 +48,6 @@ recipes.remove(<ore:dustElectrumFlux>);
 
 mods.immersiveengineering.BottlingMachine.addRecipe(<redstonearsenal:material>, <ore:dustElectrum>, <fluid:redstone>*5000);
 mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:flux_dust>, <ore:gemAquamarine>, <fluid:redstone>*5000);
-
-
-
-#Satchels
-recipes.remove(<thermalexpansion:satchel:*>);
-
-recipes.addShapedMirrored("TERecipe05", <thermalexpansion:satchel:0>, [[<betterwithmods:material:9>, <harvestcraft:wovencottonitem>, <betterwithmods:material:9>], [<ore:plateTin>, <thermalexpansion:strongbox:0>, <ore:plateTin>], [<minecraft:wool>, <minecraft:wool>, <minecraft:wool>]]);
-
-recipes.addShapedMirrored("TERecipe06", <thermalexpansion:satchel:1>, [[<harvestcraft:hardenedleatheritem>, <harvestcraft:wovencottonitem>, <harvestcraft:hardenedleatheritem>], [<ore:plateInvar>, <thermalexpansion:satchel:0>.marked("satchel"), <ore:plateInvar>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
-function(out, ins, cInfo) {
-	return out.withTag(ins.satchel.tag);
-}, null);
-
-recipes.addShapedMirrored("TERecipe07", <thermalexpansion:satchel:2>, [[<magneticraft:crafting:6>, <binniecore:storage:1>, <magneticraft:crafting:6>], [<ore:plateElectrumFlux>, <thermalexpansion:satchel:1>.marked("satchel"), <ore:plateElectrumFlux>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
-function(out, ins, cInfo) {
-	return out.withTag(ins.satchel.tag);
-}, null);
-
-recipes.addShapedMirrored("TERecipe08", <thermalexpansion:satchel:3>, [[<betterwithaddons:bolt:0>, <binniecore:storage:4>, <betterwithaddons:bolt:0>], [<ore:plateSignalum>, <thermalexpansion:satchel:2>.marked("satchel"), <ore:plateSignalum>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
-function(out, ins, cInfo) {
-	return out.withTag(ins.satchel.tag);
-}, null);
-
-recipes.addShapedMirrored("TERecipe09", <thermalexpansion:satchel:4>, [[<embers:ashen_cloth>, <binniecore:storage:5>, <embers:ashen_cloth>], [<ore:plateEnderium>, <thermalexpansion:satchel:2>.marked("satchel"), <ore:plateEnderium>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
-function(out, ins, cInfo) {
-	return out.withTag(ins.satchel.tag);
-}, null);
 
 
 

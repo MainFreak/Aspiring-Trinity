@@ -35,16 +35,6 @@ print("Superconverting items to other items, and you don't even know it!");
 #Renaming things so they make a bit more sense
 <magneticraft:limestone>.displayName = "Purified Limestone";
 
-<immersiveengineering:material:8>.displayName = "Light Engineering Component";
-
-<immersiveengineering:material:9>.displayName = "Heavy Engineering Component";
-
-<magneticraft:copper_coil>.displayName = "Copper Wire Reel";
-
-
-
-#Magneticraft
-
 #Light Plates to Sheets
 <magneticraft:light_plates:0>.displayName = "Iron Sheet";
 <magneticraft:light_plates:1>.displayName = "Gold Sheet";
@@ -69,16 +59,6 @@ print("Superconverting items to other items, and you don't even know it!");
 <ore:mipa_adv>.add(<magneticraft:crafting:3>);
 
 
-/*
-#Fixing Compartment Localization
-game.setLocalization(binniecore.storage.compartment.name,"Compartment");
-game.setLocalization(binniecore.storage.compartment_copper.name,"Copper Compartment");
-game.setLocalization(binniecore.storage.compartment_bronze.name,"Bronze Compartment");
-game.setLocalization(binniecore.storage.compartment_iron.name,"Iron Compartment");
-game.setLocalization(binniecore.storage.compartment_gold.name,"Golden Compartment");
-game.setLocalization(binniecore.storage.compartment_diamond.name,"Diamond Compartment");
-*/
-
 
 #OD Fix for Sheets
 <ore:plateIron>.remove(<magneticraft:light_plates:0>);
@@ -87,9 +67,6 @@ game.setLocalization(binniecore.storage.compartment_diamond.name,"Diamond Compar
 <ore:plateLead>.remove(<magneticraft:light_plates:3>);
 <ore:plateTungsten>.remove(<magneticraft:light_plates:5>);
 <ore:plateSteel>.remove(<magneticraft:light_plates:6>);
-
-#Better name for the magnet
-<magneticraft:crafting:4>.displayName = "Simple Steel Magnet";
 
 
 

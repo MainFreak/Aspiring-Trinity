@@ -42,6 +42,11 @@ recipes.remove(<forestry:kit_shovel>);
 
 
 
+#Please... just no.
+recipes.remove(<thermalexpansion:florb:*>);
+
+
+
 #Clearing Shape Cards.
 recipes.remove(<rftools:shape_card:5>);
 recipes.remove(<rftools:shape_card:6>);
@@ -57,6 +62,8 @@ recipes.remove(<rftools:coalgenerator>);
 recipes.remove(<actuallyadditions:item_food:*>);
 recipes.remove(<actuallyadditions:block_coal_generator>);
 recipes.remove(<actuallyadditions:block_oil_generator>);
+recipes.remove(<actuallyadditions:item_void_bag>);
+recipes.remove(<actuallyadditions:item_bag>);
 recipes.remove(<aroma1997sdimension:dimensionchanger>);
 
 

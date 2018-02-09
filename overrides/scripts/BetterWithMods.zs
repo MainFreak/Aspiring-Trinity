@@ -11,7 +11,10 @@ recipes.addShaped("BWMRecipe01", <betterwithmods:single_machine:0>, [[<ore:brick
 #Random Stuff
 mods.artisanworktables.Worktable.addRecipeShapeless("mason", <betterwithaddons:material:4>, <ore:masons_chisel>, 2, [<immcraft:rock>]);
 
-recipes.addShapeless("BWMRecipe03", <roots:straw>, [<minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>]);
+recipes.addShapeless("BWMRecipe02", <roots:straw>, [<minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>]);
+
+recipes.removeShaped(<betterwithmods:candle:0>);
+recipes.addShaped("BWMRecipe03", <betterwithmods:candle:0>, [[<ore:string>], [<ore:tallow>]]);
 
 
 

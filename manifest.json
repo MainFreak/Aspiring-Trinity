@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Aspiring-Trinity",
-  "version": "0.13",
+  "version": "0.14",
   "author": "mainfreak_1",
   "files": [
     {
@@ -635,11 +635,6 @@
       "required": true
     },
     {
-      "projectID": 247408,
-      "fileID": 2444884,
-      "required": true
-    },
-    {
       "projectID": 283624,
       "fileID": 2511914,
       "required": true
@@ -666,12 +661,12 @@
     },
     {
       "projectID": 284350,
-      "fileID": 2528401,
+      "fileID": 2529456,
       "required": true
     },
     {
       "projectID": 284351,
-      "fileID": 2527772,
+      "fileID": 2529457,
       "required": true
     },
     {

@@ -84,9 +84,11 @@ recipes.addShapedMirrored("IERecipe14", <immersiveengineering:wirecoil:5>*2, [[<
 #Crafting Components
 recipes.remove(<immersiveengineering:material:8>);
 recipes.addShapedMirrored("IERecipe15", <immersiveengineering:material:8>*2, [[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<betterwithmods:material:49>, <ic2:crafting:6>, <betterwithmods:material:49>], [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]]);
+<immersiveengineering:material:8>.displayName = "Light Engineering Component";
 
 recipes.remove(<immersiveengineering:material:9>);
 recipes.addShapedMirrored("IERecipe16", <immersiveengineering:material:9>*2, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<betterwithmods:material:49>, <ic2:crafting:6>, <betterwithmods:material:49>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+<immersiveengineering:material:9>.displayName = "Heavy Engineering Component";
 
 
 

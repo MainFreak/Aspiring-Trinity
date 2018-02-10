@@ -1570,7 +1570,7 @@ thermalfoundation:material:356, Constantan Plate
 thermalfoundation:material:357, Signalum Plate
 thermalfoundation:material:358, Lumium Plate
 thermalfoundation:material:359, Enderium Plate
-thermalfoundation:material:512, Redstone Servo
+thermalfoundation:material:512, Redstone Servomechanic Regulator
 thermalfoundation:material:513, Redstone Reception Coil
 thermalfoundation:material:514, Redstone Transmission Coil
 thermalfoundation:material:515, Redstone Conductance Coil
@@ -2045,110 +2045,15 @@ forestry:resource_storage:2, Block of Tin
 forestry:resource_storage:3, Block of Bronze
 forestry:ash_brick:0, Ash Bricks
 forestry:ash_stairs:0, Ash Brick Stairs
-forestry:mushroom:0, tile.for.mushroom.name
-forestry:mushroom:1, tile.for.mushroom.name
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
 forestry:crate, Crate
-forestry:bottler:0, Bottler
-forestry:carpenter:0, Carpenter
-forestry:centrifuge:0, Centrifuge
-forestry:fermenter:0, Fermenter
-forestry:moistener:0, Moistener
-forestry:squeezer:0, Squeezer
-forestry:still:0, Still
-forestry:rainmaker:0, Rainmaker
-forestry:fabricator:0, Thermionic Fabricator
-forestry:raintank:0, Rain Tank
+forestry:honeyed_slice, Honeyed Slice
+forestry:ambrosia, Ambrosia
+forestry:honey_pot, Honey Pot
 forestry:charcoal:0, Block of Charcoal
 forestry:wood_pile:0, Wood Pile
 forestry:wood_pile_decorative:0, Decorative Wood Pile
 forestry:ash_block:0, Ash Block
 forestry:loam:0, Loam
-forestry:fluid.bio.ethanol, Ethanol
-forestry:fluid.biomass, Biomass
-forestry:fluid.glass, Liquid Glass
-forestry:fluid.for.honey, Honey
-forestry:fluid.ice, Crushed Ice
-forestry:fluid.juice, Fruit Juice
-forestry:fluid.milk, Milk
-forestry:fluid.seed.oil, Seed Oil
-forestry:fluid.short.mead, Short Mead
-forestry:can, item.for.can.name
-forestry:capsule, item.for.capsule.name
-forestry:refractory, item.for.refractory.name
-forestry:arboretum:0, Arboretum (Managed)
-forestry:arboretum:1, Arboretum (Manual)
-forestry:farm_crops:0, Farm (Managed)
-forestry:farm_crops:1, Farm (Manual)
-forestry:farm_mushroom:0, Mushroom Farm (Managed)
-forestry:farm_mushroom:1, Mushroom Farm (Manual)
-forestry:farm_gourd:0, Gourd Farm (Managed)
-forestry:farm_gourd:1, Gourd Farm (Manual)
-forestry:farm_nether:0, Infernal Farm (Managed)
-forestry:farm_nether:1, Infernal Farm (Manual)
-forestry:farm_ender:0, Ender Farm (Managed)
-forestry:farm_ender:1, Ender Farm (Manual)
-forestry:peat_bog:0, Peat Bog (Managed)
-forestry:peat_bog:1, Peat Bog (Manual)
-forestry:database:0, Database
-forestry:engine_peat:0, Peat-fired Engine
-forestry:engine_biogas:0, Biogas Engine
-forestry:engine_clockwork:0, Clockwork Engine
-forestry:worktable:0, Worktable
 forestry:habitat_locator, Habitat Locator
 forestry:imprinter, Imprinter
 forestry:cart.beehouse:0, Minecart with Bee House
@@ -2208,21 +2113,6 @@ forestry:alveary.heater:0, Alveary Heater
 forestry:alveary.hygro:0, Alveary Hygroregulator
 forestry:alveary.stabiliser:0, Alveary Stabiliser
 forestry:alveary.sieve:0, Alveary Sieve
-forestry:honeyed_slice, Honeyed Slice
-forestry:ambrosia, Ambrosia
-forestry:honey_pot, Honey Pot
-forestry:stamps:0, Stamp (1n)
-forestry:stamps:1, Stamp (2n)
-forestry:stamps:2, Stamp (5n)
-forestry:stamps:3, Stamp (10n)
-forestry:stamps:4, Stamp (20n)
-forestry:stamps:5, Stamp (50n)
-forestry:stamps:6, Stamp (100n)
-forestry:letters, Letter
-forestry:catalogue, Catalogue
-forestry:mailbox:0, Mailbox
-forestry:trade_station:0, Trade Station
-forestry:stamp_collector:0, Stamp Collector
 forestry:grafter, Grafter
 forestry:grafter_proven, Proven Grafter
 forestry:logs.0:0, Larch Wood
@@ -2675,21 +2565,6 @@ forestry:leaves.decorative.2:0, Papaya Leaves
 forestry:leaves.decorative.2:1, Date Palm Leaves
 forestry:leaves.decorative.2:2, White Poplar Leaves
 forestry:tree_chest:0, Arborist's Chest
-forestry:butterfly_chest:0, Lepidopterist's Chest
-forestry:cocoon:0, tile.for.cocoon.name
-forestry:cocoon.solid:0, tile.for.cocoon.solid.name
-forestry:genetic_filter:0, Genetic Filter
-forestry:greenhouse:0, Greenhouse Block
-forestry:greenhouse:3, Greenhouse Energy Distributor
-forestry:greenhouse:4, Greenhouse Control
-forestry:greenhouse:5, Greenhouse Screen
-forestry:climatiser:0, Greenhouse Hygroregulator
-forestry:climatiser:1, Greenhouse Heater
-forestry:climatiser:2, Greenhouse Fan
-forestry:climatiser:3, Greenhouse Humidifier
-forestry:climatiser:4, Greenhouse Dehumidifier
-forestry:greenhouse_screen, Portable Greenhouse Screen
-forestry:camouflage_spray_can, Camouflage Spray Can
 forestry:apiarist_bag, Apiarist's Backpack
 forestry:lepidopterist_bag, Lepidopterist's Backpack
 forestry:miner_bag, Mining Backpack
@@ -2704,6 +2579,131 @@ forestry:adventurer_bag, Adventuring Backpack
 forestry:adventurer_bag_t2, Woven Adventuring Backpack
 forestry:builder_bag, Building Backpack
 forestry:builder_bag_t2, Woven Building Backpack
+forestry:mushroom:0, tile.for.mushroom.name
+forestry:mushroom:1, tile.for.mushroom.name
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:database:0, Database
+forestry:bottler:0, Bottler
+forestry:carpenter:0, Carpenter
+forestry:centrifuge:0, Centrifuge
+forestry:fermenter:0, Fermenter
+forestry:moistener:0, Moistener
+forestry:squeezer:0, Squeezer
+forestry:still:0, Still
+forestry:rainmaker:0, Rainmaker
+forestry:fabricator:0, Thermionic Fabricator
+forestry:raintank:0, Rain Tank
+forestry:arboretum:0, Arboretum (Managed)
+forestry:arboretum:1, Arboretum (Manual)
+forestry:farm_crops:0, Farm (Managed)
+forestry:farm_crops:1, Farm (Manual)
+forestry:farm_mushroom:0, Mushroom Farm (Managed)
+forestry:farm_mushroom:1, Mushroom Farm (Manual)
+forestry:farm_gourd:0, Gourd Farm (Managed)
+forestry:farm_gourd:1, Gourd Farm (Manual)
+forestry:farm_nether:0, Infernal Farm (Managed)
+forestry:farm_nether:1, Infernal Farm (Manual)
+forestry:farm_ender:0, Ender Farm (Managed)
+forestry:farm_ender:1, Ender Farm (Manual)
+forestry:peat_bog:0, Peat Bog (Managed)
+forestry:peat_bog:1, Peat Bog (Manual)
+forestry:butterfly_chest:0, Lepidopterist's Chest
+forestry:cocoon:0, tile.for.cocoon.name
+forestry:cocoon.solid:0, tile.for.cocoon.solid.name
+forestry:stamps:0, Stamp (1n)
+forestry:stamps:1, Stamp (2n)
+forestry:stamps:2, Stamp (5n)
+forestry:stamps:3, Stamp (10n)
+forestry:stamps:4, Stamp (20n)
+forestry:stamps:5, Stamp (50n)
+forestry:stamps:6, Stamp (100n)
+forestry:letters, Letter
+forestry:catalogue, Catalogue
+forestry:mailbox:0, Mailbox
+forestry:trade_station:0, Trade Station
+forestry:stamp_collector:0, Stamp Collector
+forestry:worktable:0, Worktable
+forestry:engine_peat:0, Peat-fired Engine
+forestry:engine_biogas:0, Biogas Engine
+forestry:engine_clockwork:0, Clockwork Engine
+forestry:greenhouse:0, Greenhouse Block
+forestry:greenhouse:3, Greenhouse Energy Distributor
+forestry:greenhouse:4, Greenhouse Control
+forestry:greenhouse:5, Greenhouse Screen
+forestry:climatiser:0, Greenhouse Hygroregulator
+forestry:climatiser:1, Greenhouse Heater
+forestry:climatiser:2, Greenhouse Fan
+forestry:climatiser:3, Greenhouse Humidifier
+forestry:climatiser:4, Greenhouse Dehumidifier
+forestry:greenhouse_screen, Portable Greenhouse Screen
+forestry:camouflage_spray_can, Camouflage Spray Can
+forestry:genetic_filter:0, Genetic Filter
+forestry:fluid.bio.ethanol, Ethanol
+forestry:fluid.biomass, Biomass
+forestry:fluid.glass, Liquid Glass
+forestry:fluid.for.honey, Honey
+forestry:fluid.ice, Crushed Ice
+forestry:fluid.juice, Fruit Juice
+forestry:fluid.milk, Milk
+forestry:fluid.seed.oil, Seed Oil
+forestry:fluid.short.mead, Short Mead
+forestry:can, item.for.can.name
+forestry:capsule, item.for.capsule.name
+forestry:refractory, item.for.refractory.name
 forestry:engine_electrical:0, Electrical Engine
 forestry:engine_generator:0, Bio Generator
 binniecore:glass:0, Empty Bottle
@@ -2843,6 +2843,7 @@ genetics:lab_machine:2, Incubator
 genetics:lab_machine:3, Genepool
 genetics:lab_machine:4, Acclimatiser
 genetics:adv_machine:0, Splicer
+botany:machine:0, Tileworker
 botany:plant:0, Weed
 botany:plant:1, Weed Long
 botany:plant:2, Weed Very Long
@@ -2917,30 +2918,6 @@ botany:misc:5, Compost Powder
 botany:misc:6, Mortar
 botany:misc:7, Weedkiller
 botany:botanist_bag, Botanist's Backpack
-botany:insulated_tube:0, Copper Clay Insulated Electron Tube
-botany:insulated_tube:128, Copper Cobblestone Insulated Electron Tube
-botany:insulated_tube:256, Copper Sandstone Insulated Electron Tube
-botany:insulated_tube:384, Copper Hardened Clay Insulated Electron Tube
-botany:insulated_tube:512, Copper Smooth Stone Insulated Electron Tube
-botany:insulated_tube:640, Copper Sandstone Insulated Electron Tube
-botany:insulated_tube:1, Tin Clay Insulated Electron Tube
-botany:insulated_tube:129, Tin Cobblestone Insulated Electron Tube
-botany:insulated_tube:257, Tin Sandstone Insulated Electron Tube
-botany:insulated_tube:385, Tin Hardened Clay Insulated Electron Tube
-botany:insulated_tube:513, Tin Smooth Stone Insulated Electron Tube
-botany:insulated_tube:641, Tin Sandstone Insulated Electron Tube
-botany:insulated_tube:2, Bronze Clay Insulated Electron Tube
-botany:insulated_tube:130, Bronze Cobblestone Insulated Electron Tube
-botany:insulated_tube:258, Bronze Sandstone Insulated Electron Tube
-botany:insulated_tube:386, Bronze Hardened Clay Insulated Electron Tube
-botany:insulated_tube:514, Bronze Smooth Stone Insulated Electron Tube
-botany:insulated_tube:642, Bronze Sandstone Insulated Electron Tube
-botany:insulated_tube:3, Iron Clay Insulated Electron Tube
-botany:insulated_tube:131, Iron Cobblestone Insulated Electron Tube
-botany:insulated_tube:259, Iron Sandstone Insulated Electron Tube
-botany:insulated_tube:387, Iron Hardened Clay Insulated Electron Tube
-botany:insulated_tube:515, Iron Smooth Stone Insulated Electron Tube
-botany:insulated_tube:643, Iron Sandstone Insulated Electron Tube
 botany:database:0, Botanist Database
 botany:database:1, Master Botanist Database
 botany:ceramic:0, Aquamarine Ceramic Block
@@ -3278,7 +3255,30 @@ botany:clay:77, White Clay
 botany:clay:78, Yellow Clay
 botany:clay:79, Yellow-Green Clay
 botany:misc_ceramic:0, Mortar
-botany:machine:0, Tileworker
+botany:insulated_tube:0, Copper Clay Insulated Electron Tube
+botany:insulated_tube:128, Copper Cobblestone Insulated Electron Tube
+botany:insulated_tube:256, Copper Sandstone Insulated Electron Tube
+botany:insulated_tube:384, Copper Hardened Clay Insulated Electron Tube
+botany:insulated_tube:512, Copper Smooth Stone Insulated Electron Tube
+botany:insulated_tube:640, Copper Sandstone Insulated Electron Tube
+botany:insulated_tube:1, Tin Clay Insulated Electron Tube
+botany:insulated_tube:129, Tin Cobblestone Insulated Electron Tube
+botany:insulated_tube:257, Tin Sandstone Insulated Electron Tube
+botany:insulated_tube:385, Tin Hardened Clay Insulated Electron Tube
+botany:insulated_tube:513, Tin Smooth Stone Insulated Electron Tube
+botany:insulated_tube:641, Tin Sandstone Insulated Electron Tube
+botany:insulated_tube:2, Bronze Clay Insulated Electron Tube
+botany:insulated_tube:130, Bronze Cobblestone Insulated Electron Tube
+botany:insulated_tube:258, Bronze Sandstone Insulated Electron Tube
+botany:insulated_tube:386, Bronze Hardened Clay Insulated Electron Tube
+botany:insulated_tube:514, Bronze Smooth Stone Insulated Electron Tube
+botany:insulated_tube:642, Bronze Sandstone Insulated Electron Tube
+botany:insulated_tube:3, Iron Clay Insulated Electron Tube
+botany:insulated_tube:131, Iron Cobblestone Insulated Electron Tube
+botany:insulated_tube:259, Iron Sandstone Insulated Electron Tube
+botany:insulated_tube:387, Iron Hardened Clay Insulated Electron Tube
+botany:insulated_tube:515, Iron Smooth Stone Insulated Electron Tube
+botany:insulated_tube:643, Iron Sandstone Insulated Electron Tube
 extrabees:honey_crystal, item.honey_crystal.name
 extrabees:honey_comb:0, Barren Comb
 extrabees:honey_comb:1, Rotten Comb
@@ -3501,14 +3501,6 @@ extratrees:food:59, Candlenut
 extratrees:hammer, item.hammer.name
 extratrees:durable_hammer, item.durable_hammer.name
 extratrees:hops, item.hops.name
-extratrees:databaselepi, item.databaseLepi.name
-extratrees:machine:0, Lumbermill
-extratrees:machine:1, Woodworker
-extratrees:machine:2, Panelworker
-extratrees:machine:4, Fruit Press
-extratrees:machine:5, Brewery
-extratrees:machine:6, Distillery
-extratrees:machine:7, Glassworker
 extratrees:drink:0, Beer Mug
 extratrees:drink:0, Pint Glass
 extratrees:drink:0, Snifter Glass
@@ -3525,6 +3517,14 @@ extratrees:drink:0, Shot Glass
 extratrees:drink:0, Sherry Glass
 extratrees:drink:0, Coupe Glass
 extratrees:drink:0, Wine Glass
+extratrees:machine:0, Lumbermill
+extratrees:machine:1, Woodworker
+extratrees:machine:2, Panelworker
+extratrees:machine:4, Fruit Press
+extratrees:machine:5, Brewery
+extratrees:machine:6, Distillery
+extratrees:machine:7, Glassworker
+extratrees:databasetree, item.databaseTree.name
 extratrees:carpentry, tile.null.name
 extratrees:carpentrypanel, tile.null.name
 extratrees:stainedglass, tile.null.name
@@ -4103,7 +4103,7 @@ extratrees:leaves.decorative.5:14, trees.grammar.leaves.type
 extratrees:leaves.decorative.5:15, trees.grammar.leaves.type
 extratrees:leaves.decorative.6:0, trees.grammar.leaves.type
 extratrees:shrub_log:0, Shrub Wood
-extratrees:databasetree, item.databaseTree.name
+extratrees:databaselepi, item.databaseLepi.name
 biomesoplenty:grass:0, Spectral Moss
 biomesoplenty:grass:1, Overgrown Stone
 biomesoplenty:grass:2, Loamy Grass Block
@@ -4562,7 +4562,7 @@ clockworkphase2:celestial_compass_sb, Celestial Compass
 clockworkphase2:basic_winding_box, Basic Winding Box
 clockworkphase2:assembly_table, tile.clockworkphase2:assembly_table.name
 clockworkphase2:multiblock_assembler, Multiblock Assembler
-clockworkphase2:construction_block, Multiblock Construction Frame
+clockworkphase2:construction_block, Modular Machine Mainframe
 clockworkphase2:ruined_land, Ruined Land
 enderstorage:ender_storage:0, Ender Chest
 enderstorage:ender_storage:1, Ender Tank
@@ -7365,7 +7365,7 @@ thermaldynamics:cover:0, Brass Block Cover
 thermaldynamics:cover:0, Aluminum Block Cover
 thermaldynamics:cover:0, Temporal Block Cover
 thermaldynamics:cover:0, Basic Winding Box Cover
-thermaldynamics:cover:0, Multiblock Construction Frame Cover
+thermaldynamics:cover:0, Modular Machine Mainframe Cover
 thermaldynamics:cover:0, Ruined Land Cover
 thermaldynamics:cover:0, Ender Lilly Cover
 thermaldynamics:cover:0, Magical Planks Cover
@@ -11386,7 +11386,8 @@ thermaldynamics:cover:0, Chiseled Sooty Marble Cover
 thermaldynamics:cover:0, Engraved Sooty Marble Cover
 thermaldynamics:cover:0, Runed Sooty Marble Cover
 thermaldynamics:cover:0, Neromantic Prime Cover
-thermaldynamics:cover:0, Wither Ash Cover
+thermaldynamics:cover:0, Iron Rod Cover
+thermaldynamics:cover:0, Obsidian Pressure Plate Cover
 thermaldynamics:cover:0, Marble Cover
 thermaldynamics:cover:0, Polished Marble Cover
 thermaldynamics:cover:0, Marble Slab Cover
@@ -11427,6 +11428,44 @@ thermaldynamics:cover:0, Polished Basalt Cover
 thermaldynamics:cover:0, Basalt Slab Cover
 thermaldynamics:cover:0, Basalt Stairs Cover
 thermaldynamics:cover:0, Basalt Wall Cover
+thermaldynamics:cover:0, Spruce Trapdoor Cover
+thermaldynamics:cover:0, Birch Trapdoor Cover
+thermaldynamics:cover:0, Jungle Trapdoor Cover
+thermaldynamics:cover:0, Acacia Trapdoor Cover
+thermaldynamics:cover:0, Dark Oak Trapdoor Cover
+thermaldynamics:cover:0, Paper Wall Cover
+thermaldynamics:cover:0, Iron Ladder Cover
+thermaldynamics:cover:0, Spruce Bookshelf Cover
+thermaldynamics:cover:0, Birch Bookshelf Cover
+thermaldynamics:cover:0, Jungle Bookshelf Cover
+thermaldynamics:cover:0, Acacia Bookshelf Cover
+thermaldynamics:cover:0, Dark Oak Bookshelf Cover
+thermaldynamics:cover:0, Lit Redstone Lamp Cover
+thermaldynamics:cover:0, White Candle Cover
+thermaldynamics:cover:0, Orange Candle Cover
+thermaldynamics:cover:0, Magenta Candle Cover
+thermaldynamics:cover:0, Light Blue Candle Cover
+thermaldynamics:cover:0, Yellow Candle Cover
+thermaldynamics:cover:0, Lime Candle Cover
+thermaldynamics:cover:0, Pink Candle Cover
+thermaldynamics:cover:0, Gray Candle Cover
+thermaldynamics:cover:0, Light Gray Candle Cover
+thermaldynamics:cover:0, Cyan Candle Cover
+thermaldynamics:cover:0, Purple Candle Cover
+thermaldynamics:cover:0, Blue Candle Cover
+thermaldynamics:cover:0, Brown Candle Cover
+thermaldynamics:cover:0, Green Candle Cover
+thermaldynamics:cover:0, Red Candle Cover
+thermaldynamics:cover:0, Black Candle Cover
+thermaldynamics:cover:0, Blaze Lantern Cover
+thermaldynamics:cover:0, Nether Brick Fence Gate Cover
+thermaldynamics:cover:0, Oak Leaf Carpet Cover
+thermaldynamics:cover:0, Spruce Leaf Carpet Cover
+thermaldynamics:cover:0, Birch Leaf Carpet Cover
+thermaldynamics:cover:0, Jungle Leaf Carpet Cover
+thermaldynamics:cover:0, Acacia Leaf Carpet Cover
+thermaldynamics:cover:0, Dark Oak Leaf Carpet Cover
+thermaldynamics:cover:0, Wither Ash Cover
 thermaldynamics:cover:0, Sugar Cane Block Cover
 thermaldynamics:cover:0, Sugar Cane Stairs Cover
 thermaldynamics:cover:0, Sugar Cane Slab Cover
@@ -11712,45 +11751,6 @@ thermaldynamics:cover:0, Brown Quilted Wool Cover
 thermaldynamics:cover:0, Green Quilted Wool Cover
 thermaldynamics:cover:0, Red Quilted Wool Cover
 thermaldynamics:cover:0, Black Quilted Wool Cover
-thermaldynamics:cover:0, Iron Rod Cover
-thermaldynamics:cover:0, Obsidian Pressure Plate Cover
-thermaldynamics:cover:0, Spruce Trapdoor Cover
-thermaldynamics:cover:0, Birch Trapdoor Cover
-thermaldynamics:cover:0, Jungle Trapdoor Cover
-thermaldynamics:cover:0, Acacia Trapdoor Cover
-thermaldynamics:cover:0, Dark Oak Trapdoor Cover
-thermaldynamics:cover:0, Paper Wall Cover
-thermaldynamics:cover:0, Iron Ladder Cover
-thermaldynamics:cover:0, Spruce Bookshelf Cover
-thermaldynamics:cover:0, Birch Bookshelf Cover
-thermaldynamics:cover:0, Jungle Bookshelf Cover
-thermaldynamics:cover:0, Acacia Bookshelf Cover
-thermaldynamics:cover:0, Dark Oak Bookshelf Cover
-thermaldynamics:cover:0, Lit Redstone Lamp Cover
-thermaldynamics:cover:0, White Candle Cover
-thermaldynamics:cover:0, Orange Candle Cover
-thermaldynamics:cover:0, Magenta Candle Cover
-thermaldynamics:cover:0, Light Blue Candle Cover
-thermaldynamics:cover:0, Yellow Candle Cover
-thermaldynamics:cover:0, Lime Candle Cover
-thermaldynamics:cover:0, Pink Candle Cover
-thermaldynamics:cover:0, Gray Candle Cover
-thermaldynamics:cover:0, Light Gray Candle Cover
-thermaldynamics:cover:0, Cyan Candle Cover
-thermaldynamics:cover:0, Purple Candle Cover
-thermaldynamics:cover:0, Blue Candle Cover
-thermaldynamics:cover:0, Brown Candle Cover
-thermaldynamics:cover:0, Green Candle Cover
-thermaldynamics:cover:0, Red Candle Cover
-thermaldynamics:cover:0, Black Candle Cover
-thermaldynamics:cover:0, Blaze Lantern Cover
-thermaldynamics:cover:0, Nether Brick Fence Gate Cover
-thermaldynamics:cover:0, Oak Leaf Carpet Cover
-thermaldynamics:cover:0, Spruce Leaf Carpet Cover
-thermaldynamics:cover:0, Birch Leaf Carpet Cover
-thermaldynamics:cover:0, Jungle Leaf Carpet Cover
-thermaldynamics:cover:0, Acacia Leaf Carpet Cover
-thermaldynamics:cover:0, Dark Oak Leaf Carpet Cover
 thermaldynamics:cover:0, Caminite Brick Slab Cover
 thermaldynamics:cover:0, Ashen Stone Slab Cover
 thermaldynamics:cover:0, Ashen Brick Slab Cover
@@ -17082,7 +17082,6 @@ mekanism:plasticfence:13, §dMagenta Plastic Barrier
 mekanism:plasticfence:14, §6Orange Plastic Barrier
 mekanism:plasticfence:15, §fWhite Plastic Barrier
 mekanism:saltblock, Salt Block
-betterwithmods:breeding_harness, Breeding Harness
 betterwithmods:rustic_compat_siding:0, Olive Wood Siding
 betterwithmods:rustic_compat_siding:1, Ironwood Siding
 betterwithmods:rustic_compat_siding:2, Slate Siding
@@ -17143,6 +17142,7 @@ betterwithmods:bop_compat_corner:12, Jacaranda Corner
 betterwithmods:bop_compat_corner:13, Mahogany Corner
 betterwithmods:bop_compat_corner:14, Ebony Wood Corner
 betterwithmods:bop_compat_corner:15, Eucalyptus Wood Corner
+betterwithmods:breeding_harness, Breeding Harness
 betterwithmods:anchor, Anchor
 betterwithmods:rope, Hemp Rope
 betterwithmods:single_machine:0, Mill Stone
@@ -18191,7 +18191,7 @@ appliedenergistics2:facade:0, Cable Facade - tile.armillary_ring_frame.name
 appliedenergistics2:facade:0, Cable Facade - tile.armillary_ring_frame_bottom.name
 appliedenergistics2:facade:0, Cable Facade - tile.armillary_ring_frame_bottom_corner.name
 appliedenergistics2:facade:0, Cable Facade - Basic Winding Box
-appliedenergistics2:facade:0, Cable Facade - Multiblock Construction Frame
+appliedenergistics2:facade:0, Cable Facade - Modular Machine Mainframe
 appliedenergistics2:facade:0, Cable Facade - Ruined Land
 appliedenergistics2:facade:0, Cable Facade - Purified Limestone
 appliedenergistics2:facade:0, Cable Facade - Burnt Limestone
@@ -21221,6 +21221,7 @@ appliedenergistics2:facade:0, Cable Facade - Block of Biotite
 appliedenergistics2:facade:0, Cable Facade - Chiseled Biotite Block
 appliedenergistics2:facade:0, Cable Facade - Pillar Biotite Block
 appliedenergistics2:facade:0, Cable Facade - Basalt
+appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
 appliedenergistics2:facade:0, Cable Facade - Sugar Cane Block
 appliedenergistics2:facade:0, Cable Facade - Polished Sandstone
 appliedenergistics2:facade:0, Cable Facade - Polished Stone
@@ -21246,7 +21247,6 @@ appliedenergistics2:facade:0, Cable Facade - Vertical White Stained Planks
 appliedenergistics2:facade:0, Cable Facade - Duskbound Block
 appliedenergistics2:facade:0, Cable Facade - Duskbound Lantern
 appliedenergistics2:facade:0, Cable Facade - White Quilted Wool
-appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
 appliedenergistics2:facade:0, Cable Facade - Copper Block
 appliedenergistics2:facade:0, Cable Facade - Lead Block
 appliedenergistics2:facade:0, Cable Facade - Silver Block
@@ -21573,134 +21573,400 @@ artisanworktables:workstation:7, Mage's Workstation
 artisanworktables:workstation:8, Scribe's Workstation
 artisanworktables:workstation:9, Chemist's Workstation
 artisanworktables:blacksmiths_cutters_wood, Blacksmith's %s Cutters
+artisanworktables:blacksmiths_cutters_flint, Blacksmith's %s Cutters
+artisanworktables:blacksmiths_cutters_bone, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_cutters_stone, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_cutters_iron, Blacksmith's %s Cutters
+artisanworktables:blacksmiths_cutters_gold, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_cutters_diamond, Blacksmith's %s Cutters
+artisanworktables:blacksmiths_cutters_aluminum, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_cutters_bronze, Blacksmith's %s Cutters
+artisanworktables:blacksmiths_cutters_constantan, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_cutters_copper, Blacksmith's %s Cutters
+artisanworktables:blacksmiths_cutters_electrum, Blacksmith's %s Cutters
+artisanworktables:blacksmiths_cutters_invar, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_cutters_lead, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_cutters_nickel, Blacksmith's %s Cutters
+artisanworktables:blacksmiths_cutters_platinum, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_cutters_silver, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_cutters_steel, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_cutters_tin, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_cutters_manasteel, Blacksmith's %s Cutters
+artisanworktables:blacksmiths_cutters_elementium, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_cutters_terrasteel, Blacksmith's %s Cutters
 artisanworktables:blacksmiths_hammer_wood, Blacksmith's %s Hammer
+artisanworktables:blacksmiths_hammer_flint, Blacksmith's %s Hammer
+artisanworktables:blacksmiths_hammer_bone, Blacksmith's %s Hammer
 artisanworktables:blacksmiths_hammer_stone, Blacksmith's %s Hammer
 artisanworktables:blacksmiths_hammer_iron, Blacksmith's %s Hammer
+artisanworktables:blacksmiths_hammer_gold, Blacksmith's %s Hammer
 artisanworktables:blacksmiths_hammer_diamond, Blacksmith's %s Hammer
+artisanworktables:blacksmiths_hammer_aluminum, Blacksmith's %s Hammer
 artisanworktables:blacksmiths_hammer_bronze, Blacksmith's %s Hammer
+artisanworktables:blacksmiths_hammer_constantan, Blacksmith's %s Hammer
 artisanworktables:blacksmiths_hammer_copper, Blacksmith's %s Hammer
+artisanworktables:blacksmiths_hammer_electrum, Blacksmith's %s Hammer
+artisanworktables:blacksmiths_hammer_invar, Blacksmith's %s Hammer
 artisanworktables:blacksmiths_hammer_lead, Blacksmith's %s Hammer
 artisanworktables:blacksmiths_hammer_nickel, Blacksmith's %s Hammer
+artisanworktables:blacksmiths_hammer_platinum, Blacksmith's %s Hammer
 artisanworktables:blacksmiths_hammer_silver, Blacksmith's %s Hammer
 artisanworktables:blacksmiths_hammer_steel, Blacksmith's %s Hammer
 artisanworktables:blacksmiths_hammer_tin, Blacksmith's %s Hammer
 artisanworktables:blacksmiths_hammer_manasteel, Blacksmith's %s Hammer
+artisanworktables:blacksmiths_hammer_elementium, Blacksmith's %s Hammer
 artisanworktables:blacksmiths_hammer_terrasteel, Blacksmith's %s Hammer
 artisanworktables:carpenters_hammer_wood, Carpenter's %s Hammer
+artisanworktables:carpenters_hammer_flint, Carpenter's %s Hammer
+artisanworktables:carpenters_hammer_bone, Carpenter's %s Hammer
 artisanworktables:carpenters_hammer_stone, Carpenter's %s Hammer
 artisanworktables:carpenters_hammer_iron, Carpenter's %s Hammer
+artisanworktables:carpenters_hammer_gold, Carpenter's %s Hammer
 artisanworktables:carpenters_hammer_diamond, Carpenter's %s Hammer
+artisanworktables:carpenters_hammer_aluminum, Carpenter's %s Hammer
 artisanworktables:carpenters_hammer_bronze, Carpenter's %s Hammer
+artisanworktables:carpenters_hammer_constantan, Carpenter's %s Hammer
 artisanworktables:carpenters_hammer_copper, Carpenter's %s Hammer
+artisanworktables:carpenters_hammer_electrum, Carpenter's %s Hammer
+artisanworktables:carpenters_hammer_invar, Carpenter's %s Hammer
 artisanworktables:carpenters_hammer_lead, Carpenter's %s Hammer
 artisanworktables:carpenters_hammer_nickel, Carpenter's %s Hammer
+artisanworktables:carpenters_hammer_platinum, Carpenter's %s Hammer
 artisanworktables:carpenters_hammer_silver, Carpenter's %s Hammer
 artisanworktables:carpenters_hammer_steel, Carpenter's %s Hammer
 artisanworktables:carpenters_hammer_tin, Carpenter's %s Hammer
 artisanworktables:carpenters_hammer_manasteel, Carpenter's %s Hammer
+artisanworktables:carpenters_hammer_elementium, Carpenter's %s Hammer
 artisanworktables:carpenters_hammer_terrasteel, Carpenter's %s Hammer
 artisanworktables:carpenters_handsaw_wood, Carpenter's %s Handsaw
+artisanworktables:carpenters_handsaw_flint, Carpenter's %s Handsaw
+artisanworktables:carpenters_handsaw_bone, Carpenter's %s Handsaw
 artisanworktables:carpenters_handsaw_stone, Carpenter's %s Handsaw
 artisanworktables:carpenters_handsaw_iron, Carpenter's %s Handsaw
+artisanworktables:carpenters_handsaw_gold, Carpenter's %s Handsaw
 artisanworktables:carpenters_handsaw_diamond, Carpenter's %s Handsaw
+artisanworktables:carpenters_handsaw_aluminum, Carpenter's %s Handsaw
 artisanworktables:carpenters_handsaw_bronze, Carpenter's %s Handsaw
+artisanworktables:carpenters_handsaw_constantan, Carpenter's %s Handsaw
 artisanworktables:carpenters_handsaw_copper, Carpenter's %s Handsaw
+artisanworktables:carpenters_handsaw_electrum, Carpenter's %s Handsaw
+artisanworktables:carpenters_handsaw_invar, Carpenter's %s Handsaw
 artisanworktables:carpenters_handsaw_lead, Carpenter's %s Handsaw
 artisanworktables:carpenters_handsaw_nickel, Carpenter's %s Handsaw
+artisanworktables:carpenters_handsaw_platinum, Carpenter's %s Handsaw
 artisanworktables:carpenters_handsaw_silver, Carpenter's %s Handsaw
 artisanworktables:carpenters_handsaw_steel, Carpenter's %s Handsaw
 artisanworktables:carpenters_handsaw_tin, Carpenter's %s Handsaw
 artisanworktables:carpenters_handsaw_manasteel, Carpenter's %s Handsaw
+artisanworktables:carpenters_handsaw_elementium, Carpenter's %s Handsaw
 artisanworktables:carpenters_handsaw_terrasteel, Carpenter's %s Handsaw
+artisanworktables:chemists_beaker_wood, Chemist's %s Beaker
+artisanworktables:chemists_beaker_flint, Chemist's %s Beaker
+artisanworktables:chemists_beaker_bone, Chemist's %s Beaker
+artisanworktables:chemists_beaker_stone, Chemist's %s Beaker
+artisanworktables:chemists_beaker_iron, Chemist's %s Beaker
+artisanworktables:chemists_beaker_gold, Chemist's %s Beaker
+artisanworktables:chemists_beaker_diamond, Chemist's %s Beaker
+artisanworktables:chemists_beaker_aluminum, Chemist's %s Beaker
+artisanworktables:chemists_beaker_bronze, Chemist's %s Beaker
+artisanworktables:chemists_beaker_constantan, Chemist's %s Beaker
+artisanworktables:chemists_beaker_copper, Chemist's %s Beaker
+artisanworktables:chemists_beaker_electrum, Chemist's %s Beaker
+artisanworktables:chemists_beaker_invar, Chemist's %s Beaker
+artisanworktables:chemists_beaker_lead, Chemist's %s Beaker
+artisanworktables:chemists_beaker_nickel, Chemist's %s Beaker
+artisanworktables:chemists_beaker_platinum, Chemist's %s Beaker
+artisanworktables:chemists_beaker_silver, Chemist's %s Beaker
+artisanworktables:chemists_beaker_steel, Chemist's %s Beaker
+artisanworktables:chemists_beaker_tin, Chemist's %s Beaker
+artisanworktables:chemists_beaker_manasteel, Chemist's %s Beaker
+artisanworktables:chemists_beaker_elementium, Chemist's %s Beaker
+artisanworktables:chemists_beaker_terrasteel, Chemist's %s Beaker
+artisanworktables:chemists_burner_wood, Chemist's %s Burner
+artisanworktables:chemists_burner_flint, Chemist's %s Burner
+artisanworktables:chemists_burner_bone, Chemist's %s Burner
+artisanworktables:chemists_burner_stone, Chemist's %s Burner
+artisanworktables:chemists_burner_iron, Chemist's %s Burner
+artisanworktables:chemists_burner_gold, Chemist's %s Burner
+artisanworktables:chemists_burner_diamond, Chemist's %s Burner
+artisanworktables:chemists_burner_aluminum, Chemist's %s Burner
+artisanworktables:chemists_burner_bronze, Chemist's %s Burner
+artisanworktables:chemists_burner_constantan, Chemist's %s Burner
+artisanworktables:chemists_burner_copper, Chemist's %s Burner
+artisanworktables:chemists_burner_electrum, Chemist's %s Burner
+artisanworktables:chemists_burner_invar, Chemist's %s Burner
+artisanworktables:chemists_burner_lead, Chemist's %s Burner
+artisanworktables:chemists_burner_nickel, Chemist's %s Burner
+artisanworktables:chemists_burner_platinum, Chemist's %s Burner
+artisanworktables:chemists_burner_silver, Chemist's %s Burner
+artisanworktables:chemists_burner_steel, Chemist's %s Burner
+artisanworktables:chemists_burner_tin, Chemist's %s Burner
+artisanworktables:chemists_burner_manasteel, Chemist's %s Burner
+artisanworktables:chemists_burner_elementium, Chemist's %s Burner
+artisanworktables:chemists_burner_terrasteel, Chemist's %s Burner
+artisanworktables:engineers_driver_wood, Engineer's %s Driver
+artisanworktables:engineers_driver_flint, Engineer's %s Driver
+artisanworktables:engineers_driver_bone, Engineer's %s Driver
+artisanworktables:engineers_driver_stone, Engineer's %s Driver
+artisanworktables:engineers_driver_iron, Engineer's %s Driver
+artisanworktables:engineers_driver_gold, Engineer's %s Driver
+artisanworktables:engineers_driver_diamond, Engineer's %s Driver
+artisanworktables:engineers_driver_aluminum, Engineer's %s Driver
+artisanworktables:engineers_driver_bronze, Engineer's %s Driver
+artisanworktables:engineers_driver_constantan, Engineer's %s Driver
+artisanworktables:engineers_driver_copper, Engineer's %s Driver
+artisanworktables:engineers_driver_electrum, Engineer's %s Driver
+artisanworktables:engineers_driver_invar, Engineer's %s Driver
+artisanworktables:engineers_driver_lead, Engineer's %s Driver
+artisanworktables:engineers_driver_nickel, Engineer's %s Driver
+artisanworktables:engineers_driver_platinum, Engineer's %s Driver
+artisanworktables:engineers_driver_silver, Engineer's %s Driver
+artisanworktables:engineers_driver_steel, Engineer's %s Driver
+artisanworktables:engineers_driver_tin, Engineer's %s Driver
+artisanworktables:engineers_driver_manasteel, Engineer's %s Driver
+artisanworktables:engineers_driver_elementium, Engineer's %s Driver
+artisanworktables:engineers_driver_terrasteel, Engineer's %s Driver
+artisanworktables:engineers_spanner_wood, Engineer's %s Spanner
+artisanworktables:engineers_spanner_flint, Engineer's %s Spanner
+artisanworktables:engineers_spanner_bone, Engineer's %s Spanner
+artisanworktables:engineers_spanner_stone, Engineer's %s Spanner
+artisanworktables:engineers_spanner_iron, Engineer's %s Spanner
+artisanworktables:engineers_spanner_gold, Engineer's %s Spanner
+artisanworktables:engineers_spanner_diamond, Engineer's %s Spanner
+artisanworktables:engineers_spanner_aluminum, Engineer's %s Spanner
+artisanworktables:engineers_spanner_bronze, Engineer's %s Spanner
+artisanworktables:engineers_spanner_constantan, Engineer's %s Spanner
+artisanworktables:engineers_spanner_copper, Engineer's %s Spanner
+artisanworktables:engineers_spanner_electrum, Engineer's %s Spanner
+artisanworktables:engineers_spanner_invar, Engineer's %s Spanner
+artisanworktables:engineers_spanner_lead, Engineer's %s Spanner
+artisanworktables:engineers_spanner_nickel, Engineer's %s Spanner
+artisanworktables:engineers_spanner_platinum, Engineer's %s Spanner
+artisanworktables:engineers_spanner_silver, Engineer's %s Spanner
+artisanworktables:engineers_spanner_steel, Engineer's %s Spanner
+artisanworktables:engineers_spanner_tin, Engineer's %s Spanner
+artisanworktables:engineers_spanner_manasteel, Engineer's %s Spanner
+artisanworktables:engineers_spanner_elementium, Engineer's %s Spanner
+artisanworktables:engineers_spanner_terrasteel, Engineer's %s Spanner
 artisanworktables:jewelers_gemcutter_wood, Jeweler's %s Gemcutter
+artisanworktables:jewelers_gemcutter_flint, Jeweler's %s Gemcutter
+artisanworktables:jewelers_gemcutter_bone, Jeweler's %s Gemcutter
 artisanworktables:jewelers_gemcutter_stone, Jeweler's %s Gemcutter
 artisanworktables:jewelers_gemcutter_iron, Jeweler's %s Gemcutter
+artisanworktables:jewelers_gemcutter_gold, Jeweler's %s Gemcutter
 artisanworktables:jewelers_gemcutter_diamond, Jeweler's %s Gemcutter
+artisanworktables:jewelers_gemcutter_aluminum, Jeweler's %s Gemcutter
 artisanworktables:jewelers_gemcutter_bronze, Jeweler's %s Gemcutter
+artisanworktables:jewelers_gemcutter_constantan, Jeweler's %s Gemcutter
 artisanworktables:jewelers_gemcutter_copper, Jeweler's %s Gemcutter
+artisanworktables:jewelers_gemcutter_electrum, Jeweler's %s Gemcutter
+artisanworktables:jewelers_gemcutter_invar, Jeweler's %s Gemcutter
 artisanworktables:jewelers_gemcutter_lead, Jeweler's %s Gemcutter
 artisanworktables:jewelers_gemcutter_nickel, Jeweler's %s Gemcutter
+artisanworktables:jewelers_gemcutter_platinum, Jeweler's %s Gemcutter
 artisanworktables:jewelers_gemcutter_silver, Jeweler's %s Gemcutter
 artisanworktables:jewelers_gemcutter_steel, Jeweler's %s Gemcutter
 artisanworktables:jewelers_gemcutter_tin, Jeweler's %s Gemcutter
 artisanworktables:jewelers_gemcutter_manasteel, Jeweler's %s Gemcutter
+artisanworktables:jewelers_gemcutter_elementium, Jeweler's %s Gemcutter
 artisanworktables:jewelers_gemcutter_terrasteel, Jeweler's %s Gemcutter
 artisanworktables:jewelers_pliers_wood, Jeweler's %s Pliers
+artisanworktables:jewelers_pliers_flint, Jeweler's %s Pliers
+artisanworktables:jewelers_pliers_bone, Jeweler's %s Pliers
 artisanworktables:jewelers_pliers_stone, Jeweler's %s Pliers
 artisanworktables:jewelers_pliers_iron, Jeweler's %s Pliers
+artisanworktables:jewelers_pliers_gold, Jeweler's %s Pliers
 artisanworktables:jewelers_pliers_diamond, Jeweler's %s Pliers
+artisanworktables:jewelers_pliers_aluminum, Jeweler's %s Pliers
 artisanworktables:jewelers_pliers_bronze, Jeweler's %s Pliers
+artisanworktables:jewelers_pliers_constantan, Jeweler's %s Pliers
 artisanworktables:jewelers_pliers_copper, Jeweler's %s Pliers
+artisanworktables:jewelers_pliers_electrum, Jeweler's %s Pliers
+artisanworktables:jewelers_pliers_invar, Jeweler's %s Pliers
 artisanworktables:jewelers_pliers_lead, Jeweler's %s Pliers
 artisanworktables:jewelers_pliers_nickel, Jeweler's %s Pliers
+artisanworktables:jewelers_pliers_platinum, Jeweler's %s Pliers
 artisanworktables:jewelers_pliers_silver, Jeweler's %s Pliers
 artisanworktables:jewelers_pliers_steel, Jeweler's %s Pliers
 artisanworktables:jewelers_pliers_tin, Jeweler's %s Pliers
 artisanworktables:jewelers_pliers_manasteel, Jeweler's %s Pliers
+artisanworktables:jewelers_pliers_elementium, Jeweler's %s Pliers
 artisanworktables:jewelers_pliers_terrasteel, Jeweler's %s Pliers
+artisanworktables:mages_athame_wood, Mage's %s Athame
+artisanworktables:mages_athame_flint, Mage's %s Athame
+artisanworktables:mages_athame_bone, Mage's %s Athame
+artisanworktables:mages_athame_stone, Mage's %s Athame
+artisanworktables:mages_athame_iron, Mage's %s Athame
+artisanworktables:mages_athame_gold, Mage's %s Athame
+artisanworktables:mages_athame_diamond, Mage's %s Athame
+artisanworktables:mages_athame_aluminum, Mage's %s Athame
+artisanworktables:mages_athame_bronze, Mage's %s Athame
+artisanworktables:mages_athame_constantan, Mage's %s Athame
+artisanworktables:mages_athame_copper, Mage's %s Athame
+artisanworktables:mages_athame_electrum, Mage's %s Athame
+artisanworktables:mages_athame_invar, Mage's %s Athame
+artisanworktables:mages_athame_lead, Mage's %s Athame
+artisanworktables:mages_athame_nickel, Mage's %s Athame
+artisanworktables:mages_athame_platinum, Mage's %s Athame
+artisanworktables:mages_athame_silver, Mage's %s Athame
+artisanworktables:mages_athame_steel, Mage's %s Athame
+artisanworktables:mages_athame_tin, Mage's %s Athame
+artisanworktables:mages_athame_manasteel, Mage's %s Athame
+artisanworktables:mages_athame_elementium, Mage's %s Athame
+artisanworktables:mages_athame_terrasteel, Mage's %s Athame
+artisanworktables:mages_grimoire_wood, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_flint, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_bone, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_stone, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_iron, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_gold, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_diamond, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_aluminum, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_bronze, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_constantan, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_copper, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_electrum, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_invar, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_lead, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_nickel, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_platinum, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_silver, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_steel, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_tin, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_manasteel, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_elementium, Mage's %s-Bound Grimoire
+artisanworktables:mages_grimoire_terrasteel, Mage's %s-Bound Grimoire
 artisanworktables:masons_chisel_wood, Mason's %s Chisel
+artisanworktables:masons_chisel_flint, Mason's %s Chisel
+artisanworktables:masons_chisel_bone, Mason's %s Chisel
 artisanworktables:masons_chisel_stone, Mason's %s Chisel
 artisanworktables:masons_chisel_iron, Mason's %s Chisel
+artisanworktables:masons_chisel_gold, Mason's %s Chisel
 artisanworktables:masons_chisel_diamond, Mason's %s Chisel
+artisanworktables:masons_chisel_aluminum, Mason's %s Chisel
 artisanworktables:masons_chisel_bronze, Mason's %s Chisel
+artisanworktables:masons_chisel_constantan, Mason's %s Chisel
 artisanworktables:masons_chisel_copper, Mason's %s Chisel
+artisanworktables:masons_chisel_electrum, Mason's %s Chisel
+artisanworktables:masons_chisel_invar, Mason's %s Chisel
 artisanworktables:masons_chisel_lead, Mason's %s Chisel
 artisanworktables:masons_chisel_nickel, Mason's %s Chisel
+artisanworktables:masons_chisel_platinum, Mason's %s Chisel
 artisanworktables:masons_chisel_silver, Mason's %s Chisel
 artisanworktables:masons_chisel_steel, Mason's %s Chisel
 artisanworktables:masons_chisel_tin, Mason's %s Chisel
 artisanworktables:masons_chisel_manasteel, Mason's %s Chisel
+artisanworktables:masons_chisel_elementium, Mason's %s Chisel
 artisanworktables:masons_chisel_terrasteel, Mason's %s Chisel
 artisanworktables:masons_trowel_wood, Mason's %s Trowel
+artisanworktables:masons_trowel_flint, Mason's %s Trowel
+artisanworktables:masons_trowel_bone, Mason's %s Trowel
 artisanworktables:masons_trowel_stone, Mason's %s Trowel
 artisanworktables:masons_trowel_iron, Mason's %s Trowel
+artisanworktables:masons_trowel_gold, Mason's %s Trowel
 artisanworktables:masons_trowel_diamond, Mason's %s Trowel
+artisanworktables:masons_trowel_aluminum, Mason's %s Trowel
 artisanworktables:masons_trowel_bronze, Mason's %s Trowel
+artisanworktables:masons_trowel_constantan, Mason's %s Trowel
 artisanworktables:masons_trowel_copper, Mason's %s Trowel
+artisanworktables:masons_trowel_electrum, Mason's %s Trowel
+artisanworktables:masons_trowel_invar, Mason's %s Trowel
 artisanworktables:masons_trowel_lead, Mason's %s Trowel
 artisanworktables:masons_trowel_nickel, Mason's %s Trowel
+artisanworktables:masons_trowel_platinum, Mason's %s Trowel
 artisanworktables:masons_trowel_silver, Mason's %s Trowel
 artisanworktables:masons_trowel_steel, Mason's %s Trowel
 artisanworktables:masons_trowel_tin, Mason's %s Trowel
 artisanworktables:masons_trowel_manasteel, Mason's %s Trowel
+artisanworktables:masons_trowel_elementium, Mason's %s Trowel
 artisanworktables:masons_trowel_terrasteel, Mason's %s Trowel
+artisanworktables:scribes_compass_wood, Scribe's %s Compass
+artisanworktables:scribes_compass_flint, Scribe's %s Compass
+artisanworktables:scribes_compass_bone, Scribe's %s Compass
+artisanworktables:scribes_compass_stone, Scribe's %s Compass
+artisanworktables:scribes_compass_iron, Scribe's %s Compass
+artisanworktables:scribes_compass_gold, Scribe's %s Compass
+artisanworktables:scribes_compass_diamond, Scribe's %s Compass
+artisanworktables:scribes_compass_aluminum, Scribe's %s Compass
+artisanworktables:scribes_compass_bronze, Scribe's %s Compass
+artisanworktables:scribes_compass_constantan, Scribe's %s Compass
+artisanworktables:scribes_compass_copper, Scribe's %s Compass
+artisanworktables:scribes_compass_electrum, Scribe's %s Compass
+artisanworktables:scribes_compass_invar, Scribe's %s Compass
+artisanworktables:scribes_compass_lead, Scribe's %s Compass
+artisanworktables:scribes_compass_nickel, Scribe's %s Compass
+artisanworktables:scribes_compass_platinum, Scribe's %s Compass
+artisanworktables:scribes_compass_silver, Scribe's %s Compass
+artisanworktables:scribes_compass_steel, Scribe's %s Compass
+artisanworktables:scribes_compass_tin, Scribe's %s Compass
+artisanworktables:scribes_compass_manasteel, Scribe's %s Compass
+artisanworktables:scribes_compass_elementium, Scribe's %s Compass
+artisanworktables:scribes_compass_terrasteel, Scribe's %s Compass
+artisanworktables:scribes_quill_wood, Scribe's %s Quill
+artisanworktables:scribes_quill_flint, Scribe's %s Quill
+artisanworktables:scribes_quill_bone, Scribe's %s Quill
+artisanworktables:scribes_quill_stone, Scribe's %s Quill
+artisanworktables:scribes_quill_iron, Scribe's %s Quill
+artisanworktables:scribes_quill_gold, Scribe's %s Quill
+artisanworktables:scribes_quill_diamond, Scribe's %s Quill
+artisanworktables:scribes_quill_aluminum, Scribe's %s Quill
+artisanworktables:scribes_quill_bronze, Scribe's %s Quill
+artisanworktables:scribes_quill_constantan, Scribe's %s Quill
+artisanworktables:scribes_quill_copper, Scribe's %s Quill
+artisanworktables:scribes_quill_electrum, Scribe's %s Quill
+artisanworktables:scribes_quill_invar, Scribe's %s Quill
+artisanworktables:scribes_quill_lead, Scribe's %s Quill
+artisanworktables:scribes_quill_nickel, Scribe's %s Quill
+artisanworktables:scribes_quill_platinum, Scribe's %s Quill
+artisanworktables:scribes_quill_silver, Scribe's %s Quill
+artisanworktables:scribes_quill_steel, Scribe's %s Quill
+artisanworktables:scribes_quill_tin, Scribe's %s Quill
+artisanworktables:scribes_quill_manasteel, Scribe's %s Quill
+artisanworktables:scribes_quill_elementium, Scribe's %s Quill
+artisanworktables:scribes_quill_terrasteel, Scribe's %s Quill
 artisanworktables:tailors_needle_wood, Tailor's %s Needle
+artisanworktables:tailors_needle_flint, Tailor's %s Needle
+artisanworktables:tailors_needle_bone, Tailor's %s Needle
 artisanworktables:tailors_needle_stone, Tailor's %s Needle
 artisanworktables:tailors_needle_iron, Tailor's %s Needle
+artisanworktables:tailors_needle_gold, Tailor's %s Needle
 artisanworktables:tailors_needle_diamond, Tailor's %s Needle
+artisanworktables:tailors_needle_aluminum, Tailor's %s Needle
 artisanworktables:tailors_needle_bronze, Tailor's %s Needle
+artisanworktables:tailors_needle_constantan, Tailor's %s Needle
 artisanworktables:tailors_needle_copper, Tailor's %s Needle
+artisanworktables:tailors_needle_electrum, Tailor's %s Needle
+artisanworktables:tailors_needle_invar, Tailor's %s Needle
 artisanworktables:tailors_needle_lead, Tailor's %s Needle
 artisanworktables:tailors_needle_nickel, Tailor's %s Needle
+artisanworktables:tailors_needle_platinum, Tailor's %s Needle
 artisanworktables:tailors_needle_silver, Tailor's %s Needle
 artisanworktables:tailors_needle_steel, Tailor's %s Needle
 artisanworktables:tailors_needle_tin, Tailor's %s Needle
 artisanworktables:tailors_needle_manasteel, Tailor's %s Needle
+artisanworktables:tailors_needle_elementium, Tailor's %s Needle
 artisanworktables:tailors_needle_terrasteel, Tailor's %s Needle
 artisanworktables:tailors_shears_wood, Tailor's %s Shears
+artisanworktables:tailors_shears_flint, Tailor's %s Shears
+artisanworktables:tailors_shears_bone, Tailor's %s Shears
 artisanworktables:tailors_shears_stone, Tailor's %s Shears
 artisanworktables:tailors_shears_iron, Tailor's %s Shears
+artisanworktables:tailors_shears_gold, Tailor's %s Shears
 artisanworktables:tailors_shears_diamond, Tailor's %s Shears
+artisanworktables:tailors_shears_aluminum, Tailor's %s Shears
 artisanworktables:tailors_shears_bronze, Tailor's %s Shears
+artisanworktables:tailors_shears_constantan, Tailor's %s Shears
 artisanworktables:tailors_shears_copper, Tailor's %s Shears
+artisanworktables:tailors_shears_electrum, Tailor's %s Shears
+artisanworktables:tailors_shears_invar, Tailor's %s Shears
 artisanworktables:tailors_shears_lead, Tailor's %s Shears
 artisanworktables:tailors_shears_nickel, Tailor's %s Shears
+artisanworktables:tailors_shears_platinum, Tailor's %s Shears
 artisanworktables:tailors_shears_silver, Tailor's %s Shears
 artisanworktables:tailors_shears_steel, Tailor's %s Shears
 artisanworktables:tailors_shears_tin, Tailor's %s Shears
 artisanworktables:tailors_shears_manasteel, Tailor's %s Shears
+artisanworktables:tailors_shears_elementium, Tailor's %s Shears
 artisanworktables:tailors_shears_terrasteel, Tailor's %s Shears
 artisanworktables:toolbox, Toolbox
 artisanworktables:mechanical_toolbox, Mechanical Toolbox
@@ -23894,41 +24160,6 @@ teslacorelib:machine_case, Machine Case
 teslacorelib:speed_tier1, Speed Upgrade I
 teslacorelib:speed_tier2, Speed Upgrade II
 teslacorelib:wrench, Tesla Wrench
-industrialwires:ic2_connector:0, Tin Wire Connector
-industrialwires:ic2_connector:1, Tin Wire Relay
-industrialwires:ic2_connector:2, Copper Wire Connector
-industrialwires:ic2_connector:3, Copper Wire Relay
-industrialwires:ic2_connector:4, Gold Wire Connector
-industrialwires:ic2_connector:5, Gold Wire Relay
-industrialwires:ic2_connector:6, IC2 HV Wire Connector
-industrialwires:ic2_connector:7, IC2 HV Wire Relay
-industrialwires:ic2_connector:8, Glass Fiber Wire Connector
-industrialwires:ic2_connector:9, Glass Fiber Wire Relay
-industrialwires:jacobs_ladder:0, Small Jacob's ladder
-industrialwires:jacobs_ladder:1, Jacob's ladder
-industrialwires:jacobs_ladder:2, Huge Jacob's ladder
-industrialwires:control_panel:0, Control Panel
-industrialwires:control_panel:1, Redstone Wire Controller
-industrialwires:control_panel:2, Panel Connector
-industrialwires:control_panel:3, Control Panel Creator
-industrialwires:control_panel:4, Unfinished Control Panel
-industrialwires:ic2_wire_coil:0, Tin Wire Coil
-industrialwires:ic2_wire_coil:1, Copper Wire Coil
-industrialwires:ic2_wire_coil:2, Gold Wire Coil
-industrialwires:ic2_wire_coil:3, IC2 HV Wire Coil
-industrialwires:ic2_wire_coil:4, Glass Fiber Wire Coil
-industrialwires:panel_component:0, Lighted Button
-industrialwires:panel_component:1, Label
-industrialwires:panel_component:2, Indicator Light
-industrialwires:panel_component:3, Slider
-industrialwires:panel_component:4, Variac®
-industrialwires:panel_component:5, Toggle Switch
-industrialwires:panel_component:6, Covered Toggle Switch
-industrialwires:panel_component:7, Lock Switch
-industrialwires:panel_component:8, Panel Meter
-industrialwires:panel_component:9, 7-Segment Display
-industrialwires:key:0, Blank Key
-industrialwires:key:2, Key Ring
 integrateddynamics:part_audio_reader_item, item.items.integrateddynamics.part_audio_reader_item.name
 integrateddynamics:part_block_reader_item, item.items.integrateddynamics.part_block_reader_item.name
 integrateddynamics:part_entity_reader_item, item.items.integrateddynamics.part_entity_reader_item.name
@@ -25627,33 +25858,9 @@ astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
 astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
 astralsorcery:blockcelestialcollectorcrystal:0, Floating Crystal
 akashictome:tome, item.tome.name
-quark:glowstone_dust_block, tile.glowstone_dust_block.name
-quark:gunpowder_block, tile.gunpowder_block.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Slime in a Bucket
-quark:rune:0, White Rune
-quark:rune:1, Orange Rune
-quark:rune:2, Magenta Rune
-quark:rune:3, Light Blue Rune
-quark:rune:4, Yellow Rune
-quark:rune:5, Lime Rune
-quark:rune:6, Pink Rune
-quark:rune:7, Gray Rune
-quark:rune:8, Light Gray Rune
-quark:rune:9, Cyan Rune
-quark:rune:10, Purple Rune
-quark:rune:11, Blue Rune
-quark:rune:12, Brown Rune
-quark:rune:13, Green Rune
-quark:rune:14, Red Rune
-quark:rune:15, Black Rune
-quark:rune:16, Rainbow Rune
-quark:black_ash, tile.black_ash.name
-quark:ancient_tome, item.ancient_tome.name
-quark:soul_powder, item.soul_powder.name
-quark:enderdragon_scale, item.enderdragon_scale.name
+quark:iron_rod, tile.iron_rod.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
 quark:pirate_hat, item.pirate_hat.name
 quark:marble:0, Marble
 quark:marble:1, Polished Marble
@@ -25697,6 +25904,114 @@ quark:stone_basalt_slab:0, Basalt Slab
 quark:stone_basalt_stairs, tile.stone_basalt_stairs.name
 quark:basalt_wall, tile.basalt_wall.name
 quark:smoker, tile.smoker.name
+quark:spruce_trapdoor, tile.spruce_trapdoor.name
+quark:birch_trapdoor, tile.birch_trapdoor.name
+quark:jungle_trapdoor, tile.jungle_trapdoor.name
+quark:acacia_trapdoor, tile.acacia_trapdoor.name
+quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
+quark:paper_wall, Paper Wall
+quark:iron_ladder, tile.iron_ladder.name
+quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
+quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
+quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
+quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
+quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
+quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
+quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
+quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
+quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
+quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
+quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
+quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
+quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
+quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
+quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
+quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
+quark:custom_bookshelf:0, Spruce Bookshelf
+quark:custom_bookshelf:1, Birch Bookshelf
+quark:custom_bookshelf:2, Jungle Bookshelf
+quark:custom_bookshelf:3, Acacia Bookshelf
+quark:custom_bookshelf:4, Dark Oak Bookshelf
+quark:colored_item_frame:0, White Item Frame
+quark:colored_item_frame:1, Orange Item Frame
+quark:colored_item_frame:2, Magenta Item Frame
+quark:colored_item_frame:3, Light Blue Item Frame
+quark:colored_item_frame:4, Yellow Item Frame
+quark:colored_item_frame:5, Lime Item Frame
+quark:colored_item_frame:6, Pink Item Frame
+quark:colored_item_frame:7, Gray Item Frame
+quark:colored_item_frame:8, Light Gray Item Frame
+quark:colored_item_frame:9, Cyan Item Frame
+quark:colored_item_frame:10, Purple Item Frame
+quark:colored_item_frame:11, Blue Item Frame
+quark:colored_item_frame:12, Brown Item Frame
+quark:colored_item_frame:13, Green Item Frame
+quark:colored_item_frame:14, Red Item Frame
+quark:colored_item_frame:15, Black Item Frame
+quark:lit_lamp, tile.lit_lamp.name
+quark:custom_chest:0, Spruce Chest
+quark:custom_chest:1, Birch Chest
+quark:custom_chest:2, Jungle Chest
+quark:custom_chest:3, Acacia Chest
+quark:custom_chest:4, Dark Oak Chest
+quark:custom_chest_trap:0, Spruce Trapped Chest
+quark:custom_chest_trap:1, Birch Trapped Chest
+quark:custom_chest_trap:2, Jungle Trapped Chest
+quark:custom_chest_trap:3, Acacia Trapped Chest
+quark:custom_chest_trap:4, Dark Oak Trapped Chest
+quark:candle:0, White Candle
+quark:candle:1, Orange Candle
+quark:candle:2, Magenta Candle
+quark:candle:3, Light Blue Candle
+quark:candle:4, Yellow Candle
+quark:candle:5, Lime Candle
+quark:candle:6, Pink Candle
+quark:candle:7, Gray Candle
+quark:candle:8, Light Gray Candle
+quark:candle:9, Cyan Candle
+quark:candle:10, Purple Candle
+quark:candle:11, Blue Candle
+quark:candle:12, Brown Candle
+quark:candle:13, Green Candle
+quark:candle:14, Red Candle
+quark:candle:15, Black Candle
+quark:tallow, item.tallow.name
+quark:blaze_lantern, tile.blaze_lantern.name
+quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
+quark:leaf_carpet:0, Oak Leaf Carpet
+quark:leaf_carpet:1, Spruce Leaf Carpet
+quark:leaf_carpet:2, Birch Leaf Carpet
+quark:leaf_carpet:3, Jungle Leaf Carpet
+quark:leaf_carpet:4, Acacia Leaf Carpet
+quark:leaf_carpet:5, Dark Oak Leaf Carpet
+quark:glass_item_frame, item.glass_item_frame.name
+quark:glowstone_dust_block, tile.glowstone_dust_block.name
+quark:gunpowder_block, tile.gunpowder_block.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Slime in a Bucket
+quark:rune:0, White Rune
+quark:rune:1, Orange Rune
+quark:rune:2, Magenta Rune
+quark:rune:3, Light Blue Rune
+quark:rune:4, Yellow Rune
+quark:rune:5, Lime Rune
+quark:rune:6, Pink Rune
+quark:rune:7, Gray Rune
+quark:rune:8, Light Gray Rune
+quark:rune:9, Cyan Rune
+quark:rune:10, Purple Rune
+quark:rune:11, Blue Rune
+quark:rune:12, Brown Rune
+quark:rune:13, Green Rune
+quark:rune:14, Red Rune
+quark:rune:15, Black Rune
+quark:rune:16, Rainbow Rune
+quark:black_ash, tile.black_ash.name
+quark:ancient_tome, item.ancient_tome.name
+quark:soul_powder, item.soul_powder.name
+quark:enderdragon_scale, item.enderdragon_scale.name
 quark:reed_block, tile.reed_block.name
 quark:reed_block_stairs, tile.reed_block_stairs.name
 quark:reed_block_slab:0, Sugar Cane Slab
@@ -25983,10 +26298,6 @@ quark:quilted_wool:12, Brown Quilted Wool
 quark:quilted_wool:13, Green Quilted Wool
 quark:quilted_wool:14, Red Quilted Wool
 quark:quilted_wool:15, Black Quilted Wool
-quark:iron_rod, tile.iron_rod.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:witch_hat, item.witch_hat.name
 quark:glass_shards:0, Glass Shard
 quark:glass_shards:1, White Glass Shard
 quark:glass_shards:2, Orange Glass Shard
@@ -26004,87 +26315,7 @@ quark:glass_shards:13, Brown Glass Shard
 quark:glass_shards:14, Green Glass Shard
 quark:glass_shards:15, Red Glass Shard
 quark:glass_shards:16, Black Glass Shard
-quark:spruce_trapdoor, tile.spruce_trapdoor.name
-quark:birch_trapdoor, tile.birch_trapdoor.name
-quark:jungle_trapdoor, tile.jungle_trapdoor.name
-quark:acacia_trapdoor, tile.acacia_trapdoor.name
-quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
-quark:paper_wall, Paper Wall
-quark:iron_ladder, tile.iron_ladder.name
-quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
-quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
-quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
-quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
-quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
-quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
-quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
-quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
-quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
-quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
-quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
-quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
-quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
-quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
-quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
-quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
-quark:custom_bookshelf:0, Spruce Bookshelf
-quark:custom_bookshelf:1, Birch Bookshelf
-quark:custom_bookshelf:2, Jungle Bookshelf
-quark:custom_bookshelf:3, Acacia Bookshelf
-quark:custom_bookshelf:4, Dark Oak Bookshelf
-quark:colored_item_frame:0, White Item Frame
-quark:colored_item_frame:1, Orange Item Frame
-quark:colored_item_frame:2, Magenta Item Frame
-quark:colored_item_frame:3, Light Blue Item Frame
-quark:colored_item_frame:4, Yellow Item Frame
-quark:colored_item_frame:5, Lime Item Frame
-quark:colored_item_frame:6, Pink Item Frame
-quark:colored_item_frame:7, Gray Item Frame
-quark:colored_item_frame:8, Light Gray Item Frame
-quark:colored_item_frame:9, Cyan Item Frame
-quark:colored_item_frame:10, Purple Item Frame
-quark:colored_item_frame:11, Blue Item Frame
-quark:colored_item_frame:12, Brown Item Frame
-quark:colored_item_frame:13, Green Item Frame
-quark:colored_item_frame:14, Red Item Frame
-quark:colored_item_frame:15, Black Item Frame
-quark:lit_lamp, tile.lit_lamp.name
-quark:custom_chest:0, Spruce Chest
-quark:custom_chest:1, Birch Chest
-quark:custom_chest:2, Jungle Chest
-quark:custom_chest:3, Acacia Chest
-quark:custom_chest:4, Dark Oak Chest
-quark:custom_chest_trap:0, Spruce Trapped Chest
-quark:custom_chest_trap:1, Birch Trapped Chest
-quark:custom_chest_trap:2, Jungle Trapped Chest
-quark:custom_chest_trap:3, Acacia Trapped Chest
-quark:custom_chest_trap:4, Dark Oak Trapped Chest
-quark:candle:0, White Candle
-quark:candle:1, Orange Candle
-quark:candle:2, Magenta Candle
-quark:candle:3, Light Blue Candle
-quark:candle:4, Yellow Candle
-quark:candle:5, Lime Candle
-quark:candle:6, Pink Candle
-quark:candle:7, Gray Candle
-quark:candle:8, Light Gray Candle
-quark:candle:9, Cyan Candle
-quark:candle:10, Purple Candle
-quark:candle:11, Blue Candle
-quark:candle:12, Brown Candle
-quark:candle:13, Green Candle
-quark:candle:14, Red Candle
-quark:candle:15, Black Candle
-quark:tallow, item.tallow.name
-quark:blaze_lantern, tile.blaze_lantern.name
-quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
-quark:leaf_carpet:0, Oak Leaf Carpet
-quark:leaf_carpet:1, Spruce Leaf Carpet
-quark:leaf_carpet:2, Birch Leaf Carpet
-quark:leaf_carpet:3, Jungle Leaf Carpet
-quark:leaf_carpet:4, Acacia Leaf Carpet
-quark:leaf_carpet:5, Dark Oak Leaf Carpet
-quark:glass_item_frame, item.glass_item_frame.name
+quark:witch_hat, item.witch_hat.name
 base:wrench, Wrench
 chiselsandbits:chisel_stone, Stone Chisel
 chiselsandbits:chisel_iron, Iron Chisel
@@ -30152,6 +30383,13 @@ chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Biotite Block
 chiselsandbits:block_bit:0, Chiseled Bit - Pillar Biotite Block
 chiselsandbits:block_bit:0, Chiseled Bit - Basalt
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Basalt
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Lit Redstone Lamp
+chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
 chiselsandbits:block_bit:0, Chiseled Bit - Sugar Cane Block Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Sandstone
 chiselsandbits:block_bit:0, Chiseled Bit - Sandstone Bricks
@@ -30266,13 +30504,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Brown Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Green Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Red Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Black Quilted Wool
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Lit Redstone Lamp
-chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
 chiselsandbits:block_bit:0, Chiseled Bit - Copper Block
 chiselsandbits:block_bit:0, Chiseled Bit - Lead Block
 chiselsandbits:block_bit:0, Chiseled Bit - Silver Block
@@ -30728,21 +30959,21 @@ exchangers:exhv, HV Exchanger
 exchangers:ieexcore_t1, Immersive Engineering Exchanger Core (Tier 1)
 exchangers:ieexcore_t2, Immersive Engineering Exchanger Core (Tier 2)
 exchangers:ieexcore_t3, Immersive Engineering Exchanger Core (Tier 3)
-hardcorequesting:quest_portal, tile.hqm:quest_portal.name
-hardcorequesting:quarterheart:0, Quarter of a heart
-hardcorequesting:quest_tracker, Quest Tracking System
+hardcorequesting:halfheart:0, Half a heart
 hardcorequesting:bags:0, Reward Bag
 hardcorequesting:bags:1, Reward Bag
 hardcorequesting:bags:2, Reward Bag
 hardcorequesting:bags:3, Reward Bag
 hardcorequesting:bags:4, Reward Bag
-hardcorequesting:halfheart:0, Half a heart
-hardcorequesting:quest_book, item.hqm:quest_book.name
-hardcorequesting:rottenheart:0, Rotten heart
+hardcorequesting:quarterheart:0, Quarter of a heart
 hardcorequesting:threequarts:0, Three quarters of a heart
-hardcorequesting:item_barrel, Quest Delivery System
 hardcorequesting:heart:0, Full heart
+hardcorequesting:quest_tracker, Quest Tracking System
+hardcorequesting:rottenheart:0, Rotten heart
+hardcorequesting:item_barrel, Quest Delivery System
+hardcorequesting:quest_portal, tile.hqm:quest_portal.name
 hardcorequesting:hqm_invalid_item, Invalid Item
+hardcorequesting:quest_book, item.hqm:quest_book.name
 immcraft:chisel, Chisel
 immcraft:saw, Saw
 immcraft:dummybook, Dummy Book

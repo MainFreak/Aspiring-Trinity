@@ -7,6 +7,7 @@ fluid.infernal_fuel=HD-Fuel
 item.contenttweaker.cubic_carbon.name=Cube of hexagonal Carbon Crystals
 item.contenttweaker.spool.name=Spool Brushing
 item.contenttweaker.advanced_spool.name=Advanced Spool Brushing
+item.contenttweaker.arcane_lattice.name=Arcane Lattice
 binniecore.storage.compartment=Compartment
 binniecore.storage.compartment_iron=Iron Compartment
 binniecore.storage.compartment_diamond=Diamond Compartment

@@ -84,7 +84,7 @@ mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_e
 #Empowered Crystals
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:0>, <actuallyadditions:item_crystal:0>, <betterwithmods:material:19>, <minecraft:nether_wart>, <biomesoplenty:gem:1>, <ic2:dust:6>, 750000, 500, [0.8, 0.2, 0.2]);
 
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <clockworkphase2:matter_temporal>, <jaopca:item_dustcobalt>, <biomesoplenty:gem:6>, <ic2:dust:9>, 750000, 500, [0.2, 0.2, 0.8]);
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <clockworkphase2:matter_temporal>, <magneticraft:dusts:4>, <biomesoplenty:gem:6>, <ic2:dust:9>, 750000, 500, [0.2, 0.2, 0.8]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal:2>, <astralsorcery:itemcraftingcomponent>, <clockworkphase2:zinc_block>, <betterwithmods:material:21>, <ic2:dust:5>, 750000, 500, [0.2, 0.6, 0.6]);
 
@@ -98,7 +98,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empow
 #Empowered Crystal Blocks
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:0>, <actuallyadditions:block_crystal:0>, <betterwithmods:material:16>, <minecraft:nether_wart>, <biomesoplenty:gem:1>, <ic2:dust:6>, 7500000, 5200, [0.8, 0.2, 0.2]);
 
-mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <clockworkphase2:matter_temporal>, <jaopca:item_dustcobalt>, <biomesoplenty:gem:6>, <ic2:dust:9>, 7500000, 2500, [0.2, 0.2, 0.8]);
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal:1>, <clockworkphase2:matter_temporal>, <magneticraft:dusts:4>, <biomesoplenty:gem:6>, <ic2:dust:9>, 7500000, 2500, [0.2, 0.2, 0.8]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:block_crystal:2>, <astralsorcery:itemcraftingcomponent>, <clockworkphase2:zinc_block>, <betterwithmods:material:21>, <ic2:dust:5>, 7500000, 2500, [0.2, 0.6, 0.6]);
 

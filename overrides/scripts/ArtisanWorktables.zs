@@ -7,7 +7,7 @@ print("Altering the laws of progression...");
 recipes.addShaped("ArtisanRecipes01", <artisanworktables:worktable:0>, [[<minecraft:carpet:*>, <minecraft:carpet:*>, <minecraft:carpet:*>], [<ore:chestWood>, <ore:workbench>, <ore:tailors_needle>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
 
 #Carpenter's Table
-recipes.addShaped("ArtisanRecipes02", <artisanworktables:worktable:1>, [[<betterwithaddons:scaffold>, <betterwithaddons:scaffold>, <betterwithaddons:scaffold>], [<ore:chestWood>, <ore:workbench>, <ore:carpenters_saw>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
+recipes.addShaped("ArtisanRecipes02", <artisanworktables:worktable:1>, [[<betterwithaddons:scaffold>, <betterwithaddons:scaffold>, <betterwithaddons:scaffold>], [<ore:chestWood>, <ore:workbench>, <ore:carpenters_handsaw>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
 
 #Carpenter's Table
 recipes.addShaped("ArtisanRecipes03", <artisanworktables:worktable:2>, [[<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>], [<ore:chestWood>, <ore:workbench>, <ore:masons_chisel>], [<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:1>]]);
@@ -22,10 +22,10 @@ recipes.addShaped("ArtisanRecipes05", <artisanworktables:worktable:4>, [[<avarit
 
 
 #Engineer's Table
-recipes.addShaped("ArtisanRecipes07", <artisanworktables:worktable:6>, [[<ore:gearBronze>, <ore:plateDenseBronze>, <ore:gearBronze>], [<ore:engineers_wrench>, <ic2:te:88>, <ore:chestWood>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
+recipes.addShaped("ArtisanRecipes07", <artisanworktables:worktable:6>, [[<ore:gearBronze>, <ore:plateDenseBronze>, <ore:gearBronze>], [<ore:chestWood>, <ic2:te:88>, <ore:engineers_wrench>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
 
 #Magician's Table
-recipes.addShaped("ArtisanRecipes08", <artisanworktables:worktable:7>, [[<ore:plateAmethyst>, <avaritia:resource:0>, <ore:plateAmethyst>], [<chiselsandbits:chisel_diamond>, <artisanworktables:worktable:4>, <ore:chestWood>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
+recipes.addShaped("ArtisanRecipes08", <artisanworktables:worktable:7>, [[<ore:plateAmethyst>, <avaritia:resource:0>, <ore:plateAmethyst>], [<ore:chestWood>, <artisanworktables:worktable:4>, <chiselsandbits:chisel_diamond>], [<betterwithaddons:kera>, <betterwithaddons:kera>, <betterwithaddons:kera>]]);
 
 
 

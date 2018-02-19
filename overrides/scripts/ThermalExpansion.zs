@@ -43,7 +43,7 @@ function(out, ins, cInfo) {
 	return out.withTag(ins.satchel.tag);
 }, null);
 
-recipes.addShapedMirrored("TERecipe08", <thermalexpansion:satchel:4>, [[<embers:ashen_cloth>, <binniecore:storage:5>, <embers:ashen_cloth>], [<ore:plateEnderium>, <thermalexpansion:satchel:2>.marked("satchel"), <ore:plateEnderium>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
+recipes.addShapedMirrored("TERecipe08", <thermalexpansion:satchel:4>, [[<embers:ashen_cloth>, <binniecore:storage:5>, <embers:ashen_cloth>], [<ore:plateEnderium>, <thermalexpansion:satchel:3>.marked("satchel"), <ore:plateEnderium>], [<betterwithmods:material:41>, <betterwithmods:material:41>, <betterwithmods:material:41>]],
 function(out, ins, cInfo) {
 	return out.withTag(ins.satchel.tag);
 }, null);

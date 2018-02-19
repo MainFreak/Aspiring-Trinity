@@ -1,4 +1,5 @@
 #loader contenttweaker
+
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 
@@ -25,3 +26,7 @@ spool.register();
 var adv_spool = VanillaFactory.createItem("advanced_spool");
 adv_spool.maxStackSize = 20;
 adv_spool.register();
+
+var lattice = VanillaFactory.createItem("arcane_lattice");
+lattice.maxStackSize = 64;
+lattice.register();

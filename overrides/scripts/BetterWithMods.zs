@@ -1,4 +1,8 @@
 #BWM.zs
+import mods.artisanworktables.builder.RecipeBuilder;
+
+
+
 print("Getting even better...");
 
 
@@ -9,7 +13,9 @@ recipes.addShaped("BWMRecipe01", <betterwithmods:single_machine:0>, [[<ore:brick
 
 
 #Random Stuff
-mods.artisanworktables.Worktable.addRecipeShapeless("mason", <betterwithaddons:material:4>, <ore:masons_chisel>, 2, [<immcraft:rock>]);
+RecipeBuilder.get("mason").setShapeless([
+		<immcraft:rock>
+	]).addOutput(<betterwithaddons:material:4>).addTool(<ore:artisansChisel>, 2).create();
 
 recipes.addShapeless("BWMRecipe02", <roots:straw>, [<minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>]);
 
